@@ -195,41 +195,49 @@ body{
 }
 
 @media screen and (max-width: 1200px){
-    h2 {
-        font-size: 18px;
+    .h2 {
+        position: relative;
+        font-size:9px;
+        left: 250px;
+        top:-200px;
+        
+    }
+    .B1{
+        width:100px;
+        height: 35px;
+    }
+    .B2{
+        width:100px;
+        height: 35px;
     }
     .vnali{
-        top:-10px
+        
     }
     .pOpisanie{
-        font-size: 17px;
+        
     }
     .Opi1{
-        font-size: 14px;
-        top:-160px;     
+           
     }
     .Opi{
-        font-size: 16px;
-        top:-160px; 
+       
     }
     .Har1{
-        font-size: 14px;
-        top: -310px;
-        left:620px;
+        
     }
     .Har{
-        font-size: 16px;
-        top:-310px;
-        left:680px;
+        
     }
     .List{
-        top:-13px;
-        left:-45px;
+        
     }
     .under{
-        top:-20px;
-        left:-40px;
+       
 }
+    .error{
+        width: 200px;
+        height: 200px;
+    }
 }
 @media screen and (max-width: 998px){
     
