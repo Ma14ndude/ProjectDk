@@ -255,11 +255,16 @@ body{
     .Har1{
         width: 500px;
     }
-
+    .Opi1{
+        font-size:12px;
+    }
 }
 @media screen and (max-width: 768px){
     .Opi1{
-        font-size:13px;
+        font-size:12px;
+    }
+    .Har1{
+        font-size:10px;
     }
    
 }
