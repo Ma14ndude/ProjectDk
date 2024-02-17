@@ -285,10 +285,10 @@ body{
 }
 @media screen and (max-width: 768px){
     .body{
-        width: 1240px;
+        width: 1280px;
     }
     .background{
-        width: 1240px;
+        width: 1280px;
     }
     .Opi1{
         font-size:12px;
