@@ -191,14 +191,21 @@ body{
 }
 
 @media screen and (max-width: 1360px){
+    body{
+        width: 1000px;
+    }
+    .background{
+        width: 1000px;
+    }
     .border{
-        
+        top:225px;
+        width: 1020px;
     }
     .h2 {
         position: relative;
         top:0px;
-        left: 120px;
-        font-size:16px;
+        left: 100px;
+        font-size:15px;
     }
     .B1{
         
@@ -210,22 +217,25 @@ body{
         font-size:18px;
     }
     .pOpisanie{
-        
+       
     }
     .Opi{
-       
+       top:250px;
+       font-size:21px;
     }
     .Opi1{
-          
+        top:250px;
+        font-size:14px;
     }
     .Har{
-       
+       left:630px;
     }
     .Har1{
-        
+        left:630px;
+        font-size:13px;
     }
     .List{
-        
+        left:-43px;
     }
     .under{
        
