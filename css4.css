@@ -258,7 +258,9 @@ body{
 
 }
 @media screen and (max-width: 768px){
-    
+    .Opi1{
+        font-size:13px;
+    }
 }
 @media screen and (max-width: 576px){
     body{
@@ -300,17 +302,17 @@ body{
     }
     
     .Har{
-        top: 0px;
+        top: 20px;
         left: 20px;
     }
     .Har1{
-        top: -10px;
+        top: 10px;
         left: 10px;
         width: 350px;
     }
     .Opi{
         width: 300px;
-        top:30px;
+        top:20px;
         font-size: 18px;
     }
     .Opi1{
