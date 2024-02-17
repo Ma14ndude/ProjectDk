@@ -260,27 +260,33 @@ body{
     }
 }
 @media screen and (max-width: 768px){
+    .body{
+        width: 1220px;
+    }
+    .background{
+        width: 1220px;
+    }
     .Opi1{
         font-size:12px;
     }
     .Har{
-        left:600px;
+        left:750px;
     }
     .Har1{
-        font-size:10px;
-        left:600px;
+        font-size:13px;
+        left:750px;
     }
     .h2{
         font-size: 15px;
-        left:70px;
-        top:-30px
+        left:220px;
+        top:-100px
     }
     .error{
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
     }
     .border{
-        width: 768px;
+        width: 1220px;
     }
    
 }
