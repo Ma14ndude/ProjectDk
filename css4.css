@@ -190,15 +190,15 @@ body{
     display: inline-block;
 }
 
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1366px){
     .border{
         
     }
     .h2 {
         position: relative;
-        top:-500px;
-        left: 800px;
-        
+        top:-100px;
+        left: 120px;
+        font-size:18px;
     }
     .B1{
         
@@ -231,7 +231,8 @@ body{
        
 }
     .error{
-       
+        width:580px;
+        height:550px;
     }
 }
 @media screen and (max-width: 998px){
