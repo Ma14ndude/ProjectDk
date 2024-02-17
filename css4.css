@@ -249,7 +249,12 @@ body{
     }
 }
 @media screen and (max-width: 998px){
-    
+    .Opi{
+        width: 500px;
+    }
+    .Har1{
+        width: 500px;
+    }
 
 }
 @media screen and (max-width: 768px){
@@ -259,10 +264,10 @@ body{
     body{
         margin: 0;
         overflow-x: hidden;
-        width: 430px;
+        width: 360px;
     }
     .background{
-        width: 630px;
+        width: 360px;
     }
     .error{
         width: 300px;
@@ -295,24 +300,28 @@ body{
     }
     
     .Har{
-        top: 400px;
-        left: 10px;
+        top: 0px;
+        left: 20px;
     }
     .Har1{
-        top: 390px;
+        top: -10px;
         left: 10px;
+        width: 350px;
     }
     .Opi{
-        top:350px;
-        font-size: 17px;
+        width: 300px;
+        top:30px;
+        font-size: 18px;
     }
     .Opi1{
-        top:350px;
+        left:10px;
+        top:20px;
         font-size: 15px;
+        width:300px;
     }
     .border{
-       top:320px;
-       width: 660px;
+       top:20px;
+       width: 375px;
     }
     .List{
         
