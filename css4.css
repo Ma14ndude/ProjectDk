@@ -285,10 +285,10 @@ body{
 }
 @media screen and (max-width: 768px){
     .body{
-        width: 1220px;
+        width: 1240px;
     }
     .background{
-        width: 1220px;
+        width: 1240px;
     }
     .Opi1{
         font-size:12px;
@@ -302,7 +302,7 @@ body{
     }
     .h2{
         font-size: 15px;
-        left:320px;
+        left:220px;
         top:-100px
     }
     .error{
