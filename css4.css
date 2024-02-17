@@ -1,3 +1,6 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+ /* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Archivo:ital,wght@0,100..900;1,100..900&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Archivo:ital,wght@0,100..900;1,100..900&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body{
     margin: 0;
     background-color: black;
@@ -19,11 +22,9 @@ body{
     animation-duration: alternate-reverse;
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-    align-items: center;
+    
     
 }
-
-
 @keyframes Apple {
     0% {
         transform: translateY(0px);
@@ -54,24 +55,20 @@ body{
         border-radius: 19% 81% 37% 63% / 62% 32% 68% 38% 
     }
 }
-
 .h2{
     display:inline-block;
     color:rgb(255, 255, 255);
     position: relative;
-    left: 530px;
-    top: -420px;
+    left: 130px;
+    top: -60px;
     font-size: 20px;
     animation-name: h2;
     animation-duration: 1.4s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-duration: alternate-reverse;
-    max-width: 1360px;
-    padding: 0px 20px;
-    margin: 0px auto;
+    
 }
-
 @keyframes h2{
     0% {
         transform: translateY(0px);
@@ -84,15 +81,13 @@ body{
         transform:translateY(0px);
     }
 }
-
 .border{
     position: relative;
     border: none;
-    /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
-    background-color: rgb(231, 28, 113);
+    background-image: linear-gradient(to right, #60f090 0%, #1b8ae6 100%);  
     height: 30px;
-    width: 2000px;
-    top: -168px;
+    width: 1360px;
+    top: 162px;
 }
 
 
@@ -100,26 +95,22 @@ body{
     position: relative;
     color: rgb(255, 255, 255);
     left: 40px;
-    top: -180px;
+    top: 210px;
     font-size: 27px;
 }
-
-
 .Opi1 {
     position:relative;
     color: rgb(255, 255, 255);
     font-size: 17px;
-    top:-187px; 
+    top:200px; 
     left:20px;
     
 }
-
-
 .Har {
     position: relative;
     color: rgb(255, 255, 255);
     left: 750px;
-    top: -390px;
+    top: -0px;
     font-size: 15px;
     
 }
@@ -128,7 +119,7 @@ body{
     position: relative;
     color: rgb(255, 255, 255);
     left: 750px;
-    top: -390px;
+    top: 0px;
     font-size: 15px;
 }
 .under{
@@ -140,7 +131,6 @@ body{
     top:-15px;
     left:100px
 }
-
 .vnali{
     position: relative;
     font-size:15px;
@@ -149,7 +139,9 @@ body{
 }
 .pOpisanie{
     position: relative;
-    top:-10px
+    /* font-family: "Playfair Display", serif; */
+     /* font-family: "Archivo", sans-serif;  */
+     font-family: "Spectral", serif; 
 }
 .cost{
     position: relative;
@@ -165,7 +157,7 @@ body{
     border: none;
     transition: transform 0.6s;
     cursor: pointer;
-    
+    top:0px; 
 }
 .B1:hover{
     transform: scale(1.08);
@@ -183,6 +175,7 @@ body{
     left:50px;
     transition: transform 0.6s;
     cursor: pointer;
+    top:0px; 
     
 }
 .B2:hover{
@@ -195,6 +188,9 @@ body{
 }
 
 @media screen and (max-width: 1200px){
+    .border{
+        width: 1024px;
+    }
     .h2 {
         position: relative;
         font-size:9px;
@@ -211,28 +207,37 @@ body{
         height: 35px;
     }
     .vnali{
-        
+        position: relative;
+        top:-10px;
+        font-size: 11px;
     }
     .pOpisanie{
-        
-    }
-    .Opi1{
-           
+        font-size: 11px;
     }
     .Opi{
-       
+       font-size: 17px;
     }
-    .Har1{
-        
+    .Opi1{
+           font-size: 13px;
     }
     .Har{
-        
+        position: relative;
+        font-size: 14px;
+        left: 20px;
+        top:-200px;
+    }
+    .Har1{
+        font-size: 12px;
+        left: 20px;
+        top:-211px;
     }
     .List{
-        
+        left: -20px;
+        top: -8px;
     }
     .under{
-       
+       top:-18px;
+       left:-40px
 }
     .error{
         width: 200px;
@@ -247,5 +252,76 @@ body{
     
 }
 @media screen and (max-width: 576px){
-    
+   .body{
+    max-width: 375px;
+    margin: 0 auto;
+   }
+    .img{
+        left:20px
+    }
+    .error{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        
+    }
+    .B1{
+        width: 75px;
+        height: 25px;
+        font-size:10px;
+        left: -150px;
+        top:50px;
+    }
+    .B2{
+        width: 75px;
+        height: 25px;
+        font-size:10px;
+        left: -140px;
+        top:50px;
+    }
+    .h2{
+        margin: 0;
+    }
+    .cost{
+        top:50px;
+        left:-140px;
+
+    }
+    .vnali{
+
+    }
+    .pOpisanie{
+        left: -140px;
+        top:50px;
+        font-size:8px;
+    }
+    .border{
+        width: 375px;
+        top: -170px;
+    }
+    .Har{
+        top:-125px
+    }
+    .Har1{
+        
+        top:-130px;
+    }
+    .Opi{
+        left:10px;
+        top:-120px;
+        font-size:13px
+    }
+    .Opi1{
+        left:10px;
+        top:-120px;
+        font-size: 11px;
+    }
+    .border{
+        top: -130px;
+    }
+    .List{
+        top:-13px;
+        left:-40px;
+        font-size:10px
+    }
 }
