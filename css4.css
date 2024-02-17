@@ -6,6 +6,7 @@ body{
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
+    max-height:600px;
     overflow: auto;
     overflow-x: hidden;
     height: 1000px;
@@ -255,13 +256,23 @@ body{
     
 }
 @media screen and (max-width: 576px){
-    
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        width: 430px;
+    }
+    .background{
+        width: 630px;
+    }
     .error{
         width: 300px;
         height: 300px; 
     }
     .h2{
-        top:20px;
+        
+        left:0px;
+        top:0px;
+        font-size: 10px;
     }
     .B1{
         
@@ -280,26 +291,28 @@ body{
 
     }
     .pOpisanie{
-        
+        font-size: 13px
     }
-    .border{
-        
-    }
+    
     .Har{
-        
+        top: 400px;
+        left: 10px;
     }
     .Har1{
-        
-        
+        top: 390px;
+        left: 10px;
     }
     .Opi{
-        
+        top:350px;
+        font-size: 17px;
     }
     .Opi1{
-        
+        top:350px;
+        font-size: 15px;
     }
     .border{
-       
+       top:320px;
+       width: 660px;
     }
     .List{
         
