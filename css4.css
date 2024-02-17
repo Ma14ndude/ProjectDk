@@ -192,19 +192,19 @@ body{
 
 @media screen and (max-width: 1360px){
     body{
-        width: 1000px;
+        width: 1360px;
     }
     .background{
-        width: 1000px;
+        width: 1360px;
     }
     .border{
-        top:225px;
-        width: 1020px;
+        top:90px;
+        width: 1360px;
     }
     .h2 {
         position: relative;
-        top:0px;
-        left: 100px;
+        top:-130px;
+        left: 200px;
         font-size:15px;
     }
     .B1{
@@ -220,29 +220,31 @@ body{
        
     }
     .Opi{
-       top:250px;
+       top:120px;
        font-size:21px;
     }
     .Opi1{
-        top:250px;
-        font-size:14px;
+        top:120px;
+        font-size:16px;
     }
     .Har{
-       left:630px;
+       top:-60px;
+       left:790px;
     }
     .Har1{
-        left:630px;
+        left:790px;
         font-size:13px;
+        top:-60px;
     }
     .List{
         left:-43px;
     }
     .under{
-       
+        left:-43px;
 }
     .error{
-        width:400px;
-        height:400px;
+        width:500px;
+        height:500px;
     }
 }
 @media screen and (max-width: 998px){
@@ -253,12 +255,13 @@ body{
     
 }
 @media screen and (max-width: 576px){
-    .img{
-        
-    }
+    
     .error{
-        
-        
+        width: 300px;
+        height: 300px; 
+    }
+    .h2{
+        top:20px;
     }
     .B1{
         
