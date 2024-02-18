@@ -86,13 +86,7 @@ body{
 .background{
     height: 800px;
 }
-.video{
-    position: relative;
-    left:20px;
-    top:420px;
-    width: 500px;
-    height: 280px;
-}
+
 .border{
     position: relative;
     border: none;
