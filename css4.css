@@ -333,7 +333,7 @@ body{
     }
     
     .Har{
-
+        font-size:13;
         top: 20px;
         left: 20px;
     }
@@ -363,7 +363,7 @@ body{
         position: relative;
         width: 350px;
         left: 10px;
-        top:640px;
-        height: 640px;
+        top:680px;
+        
     }
 }
