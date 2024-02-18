@@ -303,8 +303,8 @@ body{
     .video{
         position: relative;
         left:30px;
-        top:700px;
-        height: 500px;
+        top:500px;
+        
     }
    
 }
@@ -316,6 +316,7 @@ body{
     }
     .background{
         width: 360px;
+        height: 1000px;
         
     }
     .error{
@@ -364,7 +365,6 @@ body{
         position: relative;
         width: 350px;
         left: 10px;
-        top:700px;
-        height: 500px;
+        top:500px;
     }
 }
