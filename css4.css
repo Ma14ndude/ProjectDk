@@ -267,9 +267,7 @@ body{
     .Opi1{
         font-size:12px;
     }
-    .video{
-        top:30px;
-    }
+    
 }
 @media screen and (max-width: 768px){
     .body{
@@ -284,8 +282,8 @@ body{
     .Har{
         left:750px;
     }
-    .Har1{
-        font-size:13px;
+    .Har1{            
+        font-size:12px;
         left:750px;
     }
     .h2{
@@ -301,9 +299,7 @@ body{
         width: 1220px;
     }
     .video{
-        position: relative;
-        left:30px;
-        top:50px; 
+        top:500px;
     }
    
 }
@@ -361,9 +357,6 @@ body{
        width: 375px;
     }
     .video{
-        position: relative;
-        width: 350px;
-        left: 10px;
-        top:780px;
+        top:500px;
     }
 }
