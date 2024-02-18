@@ -298,11 +298,7 @@ body{
     .border{
         width: 1220px;
     }
-    .video{
-        left:10px;
-        width: 350px;
-        top:600px;
-    }
+   
    
 }
 @media screen and (max-width: 576px){
