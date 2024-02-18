@@ -23,7 +23,7 @@ body{
     animation-duration: alternate-reverse;
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+    
     
     
 }
@@ -354,5 +354,6 @@ body{
         width: 350px;
         left: 10px;
         top:630px;
+        height: 640px;
     }
 }
