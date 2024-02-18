@@ -303,7 +303,7 @@ body{
     .video{
         position: relative;
         left:30px;
-        top:600px; 
+        top:50px; 
     }
    
 }
@@ -364,6 +364,6 @@ body{
         position: relative;
         width: 350px;
         left: 10px;
-        top:530px;
+        top:470px;
     }
 }
