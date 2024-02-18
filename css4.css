@@ -252,11 +252,7 @@ body{
         width:500px;
         height:500px;
     }
-    .video{
-        position: relative;
-        left:20px;
-        top:70px;
-}
+
 
 }
 @media screen and (max-width: 998px){
