@@ -299,7 +299,9 @@ body{
         width: 1220px;
     }
     .video{
-        top:500px;
+        left:10px;
+        width: 350px;
+        top:600px;
     }
    
 }
@@ -357,6 +359,8 @@ body{
        width: 375px;
     }
     .video{
-        top:500px;
+        left:10px;
+        width: 350px;
+        top:600px;
     }
 }
