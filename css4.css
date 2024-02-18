@@ -297,6 +297,9 @@ body{
     .border{
         width: 1220px;
     }
+    .video{
+        top:50px;
+    }
    
 }
 @media screen and (max-width: 576px){
@@ -353,7 +356,7 @@ body{
         position: relative;
         width: 350px;
         left: 10px;
-        top:630px;
+        top:640px;
         height: 640px;
     }
 }
