@@ -301,7 +301,9 @@ body{
         width: 1220px;
     }
     .video{
-        top:30px;
+        position: relative;
+        left: 30px;
+        top:50px;
     }
    
 }
