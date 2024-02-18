@@ -86,7 +86,13 @@ body{
 .background{
     height: 800px;
 }
-
+.video{
+    position: relative;
+    left:20px;
+    top:420px;
+    width: 500px;
+    height: 280px;
+}
 .border{
     position: relative;
     border: none;
@@ -246,7 +252,11 @@ body{
         width:500px;
         height:500px;
     }
-
+    .video{
+        position: relative;
+        left:20px;
+        top:70px;
+}
 
 }
 @media screen and (max-width: 998px){
@@ -347,5 +357,9 @@ body{
        top:20px;
        width: 375px;
     }
-  
+    .video{
+        top:500px;
+        width: 400px;
+        left: 10px;
+    }
 }
