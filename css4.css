@@ -9,7 +9,7 @@ body{
     max-height:600px;
     overflow: auto;
     overflow-x: hidden;
-    height: 1000px;
+    
 }
 .img{
     display: inline-block;
@@ -23,6 +23,7 @@ body{
     animation-duration: alternate-reverse;
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
     
     
 }
@@ -81,6 +82,14 @@ body{
     100% {
         transform:translateY(0px);
     }
+}
+.background{
+    height: 800px;
+}
+.video{
+    position: relative;
+    left:20px;
+    top:350px;
 }
 .border{
     position: relative;
@@ -197,6 +206,7 @@ body{
     }
     .background{
         width: 1360px;
+        height: 800px;
     }
     .border{
         top:90px;
@@ -208,11 +218,10 @@ body{
         left: 200px;
         font-size:15px;
     }
-    .B1{
-        
-    }
-    .B2{
-       
+    .video{
+    position: relative;
+    left:20px;
+    top:20px;
     }
     .vnali{
         font-size:18px;
@@ -298,6 +307,7 @@ body{
     }
     .background{
         width: 360px;
+        
     }
     .error{
         width: 300px;
@@ -309,22 +319,7 @@ body{
         top:0px;
         font-size: 10px;
     }
-    .B1{
-        
-    }
-    .B2{
-        
-    }
-    .h2{
-        
-    }
-    .cost{
-        
-
-    }
-    .vnali{
-
-    }
+    
     .pOpisanie{
         font-size: 13px
     }
@@ -354,7 +349,10 @@ body{
        top:20px;
        width: 375px;
     }
-    .List{
-        
+    .video{
+        position: relative;
+        width: 350px;
+        left: 10px;
+        top:590px;
     }
 }
