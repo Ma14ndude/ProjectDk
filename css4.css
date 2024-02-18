@@ -267,6 +267,9 @@ body{
     .Opi1{
         font-size:12px;
     }
+    .video{
+        top:30px;
+    }
 }
 @media screen and (max-width: 768px){
     .body{
@@ -298,7 +301,7 @@ body{
         width: 1220px;
     }
     .video{
-        top:50px;
+        top:30px;
     }
    
 }
