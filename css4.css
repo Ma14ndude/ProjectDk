@@ -363,7 +363,8 @@ body{
         position: relative;
         width: 350px;
         left: 10px;
-        top:680px;
+        top:550px;
+        height: 640px;
         
     }
 }
