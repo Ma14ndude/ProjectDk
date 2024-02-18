@@ -89,7 +89,9 @@ body{
 .video{
     position: relative;
     left:20px;
-    top:350px;
+    top:420px;
+    width: 500px;
+    height: 280px;
 }
 .border{
     position: relative;
@@ -152,8 +154,6 @@ body{
 }
 .pOpisanie{
     position: relative;
-    /* font-family: "Playfair Display", serif; */
-     /* font-family: "Archivo", sans-serif;  */
      font-family: "Spectral", serif; 
 }
 .cost{
@@ -218,11 +218,7 @@ body{
         left: 200px;
         font-size:15px;
     }
-    .video{
-    position: relative;
-    left:20px;
-    top:20px;
-    }
+ 
     .vnali{
         font-size:18px;
     }
@@ -256,6 +252,12 @@ body{
         width:500px;
         height:500px;
     }
+    .video{
+        position: relative;
+        left:20px;
+        top:70px;
+}
+
 }
 @media screen and (max-width: 998px){
     .Opi{
@@ -267,6 +269,7 @@ body{
     .Opi1{
         font-size:12px;
     }
+
     
 }
 @media screen and (max-width: 768px){
@@ -355,8 +358,8 @@ body{
        width: 375px;
     }
     .video{
-        left:10px;
-        width: 350px;
-        top:600px;
+        top:500px;
+        width: 300px;
+        left: 10px;
     }
 }
