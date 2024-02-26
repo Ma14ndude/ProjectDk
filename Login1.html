@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in Sway-Gref</title>
+    <link rel="shortcut icon" href="Icon_server.png" type="image/png">
+    <link rel="stylesheet" href="Pol-have.css">
+</head>
+<body>
+    <form action="login.php" method="post" onsubmit="return validateForm()">
+        <div class="container">
+        <label class="login" for="login">Login</label>
+        <input type="text" class="input-pot" name="Login"
+        id="login" autocomplete="off" required minlength="4"><br>
+        <label class="password" for="password">Password</label>  
+        <input type="password" class="pass-pol" name="pass"
+        id="pass" autocomplete="off" required minlength="4"><br>
+        <button class="button">ВОЙТИ</button>
+        <h1 class="SING-IN" onclick="location.href='Register1.html'">SING-IN</h1><br>
+        <h1 class="SING-UP" onclick="location.href='Log-in.html'">SING-UP</h1>
+        <div class="Error">
+            <p class="Have-Pol">"Ошибка! Неверный Логин или пароль";</p>
+        </div>
+    </div>
+
+    <script>
+        function validateForm() {
+            var login = document.getElementById("login").value;
+            
+            var pass = document.getElementById("pass").value;
+    
+            
+            if (login === "" || pass === "") {
+                alert("Все поля должны быть заполнены");
+                return false; 
+            }
+    
+           
+    
+            return true; 
+        }
+    </script>
+</body>
+</html>

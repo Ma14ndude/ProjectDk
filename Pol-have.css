@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Riot&family=Rubik+Glitch+Pop&display=swap');
+body {
+    background-image: url(kartinkazadreg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 550px;
+    height: 500px;
+    
+}
+.login{
+    color:white;
+    position: relative;
+    top:-13px;
+    left:70px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.email{
+    color:white;
+    position: relative;
+    top:23px;
+    left:70px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.password{
+    color:white;
+    position: relative;
+    top:70px;
+    left:70px;
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.input-pot{
+    position: relative;
+    width: 450px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    border-radius: 20px;
+    outline: none;
+    background-color: #a9d8f2; 
+    top:20px;  
+}
+.input-pot:focus{
+    border: 1px solid;
+    border-color: green;
+}
+.input-pot:active{
+    background-color: #a9d8f2; 
+}
+.pass-pol {
+    position: relative;
+    width: 450px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    border-radius: 20px;
+    outline: none;
+    background-color: #a9d8f2;  
+    font-size: 15px; 
+    top: 70px;
+    left:63px;  
+}
+.pass-pol:focus{
+    border: 1px solid;
+    border-color: green;
+}
+.pass-pol:active{
+    background-color: #a9d8f2; 
+}
+.button {
+    position: relative;
+    top:130px;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    color: rgb(255, 255, 255);
+    padding: 10px 110px;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);            
+    box-shadow: 0 0 20px #13d0ff;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    left:130px; 
+}
+
+.button:hover {
+    background-position: right center; 
+    text-decoration: none;
+}
+.SING-IN{
+    position: relative;
+    top:-251px;
+    left:50px;
+    color:white;
+    font-size:24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.SING-UP{
+    position: relative;
+    top:-331px;
+    left:180px;
+    color:white;
+    font-size:24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    text-decoration: underline 2px yellow;
+    cursor: pointer;
+}
+.SING-UP:hover{
+    text-decoration: underline 2px yellow;
+}
+.SING-IN:hover{
+     text-decoration: underline 2px yellow;
+
+}
+.Have-Pol{
+    position: relative;
+    top:-305px;
+    color: red;
+    left:150px;
+    font-family: "Open Sans", sans-serif;
+    font-size: normal;
+}

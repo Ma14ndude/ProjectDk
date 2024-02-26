@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icon_server.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>SwayGrief</title>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/2.0.8/clipboard.min.js"></script>
+    
+</head>
+<body class="obsh">
+    <script src="js1.js" defer></script>
+    <div class="background">
+        <img class="iconka" src="Icon_server.png" alt="SwayGrief" width="60px" height="60px"> 
+        <div class="text-SwayGrief">
+            <h2 class="SwayGrief">Sway<span class="Grief">G rief</span></h2>
+                <div class="container">
+            <i class="fa-brands fa-vk" onclick="location.href='https://vk.com/swaygrief'"></i>
+                <i class="fa-brands fa-discord" onclick="location.href='https://discord.gg/jbeP59xS'"></i>
+                    <i class="fa-brands fa-youtube" onclick="location.href='https://www.youtube.com/@SwayGrief'"></i>
+                        <i class="fa-solid fa-circle-info" id="openModalBtn"></i>
+                    </div>
+                    <div class="outline-border">
+                        <img class="verstack" src="verstack.png" width="90px">
+                        <div class="online"></div>
+                        <h2 class="slots">0/150</h2>
+                        <h3 class="version">1.12.x-1.16.x</h3>   
+                        <h3 class="Nameborder">SwayGrief</h3>
+                        <p class="Ip" onclick="copyText()">mc.swaygrief.ru</p>
+                        <span class="copied-message">Скопированно!</span>
+                        
+                    </div>
+                    <div class="log-in" onmouseover="showTooltip()" onmouseout="hideTooltip()">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <div class="tooltip" id="tooltip">
+                            <span class="vhod" onclick="location.href='Log-in.html'">Вход</span>
+                            <br>
+                            <span class="registracia" onclick="location.href='Register1.html'">Регистрация</span>
+                        </div>
+                    </div>
+                    
+                    <script>
+                        function copyText() {
+                            var textToCopy = document.querySelector('.Ip').innerText;
+                            var copiedMessage = document.querySelector('.copied-message');
+                
+                            var textarea = document.createElement('textarea');
+                            textarea.value = textToCopy;
+                            document.body.appendChild(textarea);
+                            textarea.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(textarea);
+                
+                            
+                            copiedMessage.style.display = 'inline';
+                            setTimeout(function () {
+                                
+                                copiedMessage.style.display = 'none';
+                            }, 2000);
+                        }
+                    </script>
+                
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                        <h1 class="info-server">Новости SwayGrief</h1>
+                            
+                
+                    </div>
+                </div>
+        </div>
+    </div>
+ </div>
+ <div class="bordertown"></div>
+ <div class="background-black">
+ <div class="Tovar-name">
+    <h1>ТОВАРЫ</h1>
+    <div class="border-tovar1">
+        <div class="button-1">
+            <button class="add-button" id="OpenBtn">Купить</button>
+        </div>
+        <div class="image-tovar1">
+            <img class="image-Lite" src="Lite.png" alt="Lite" width="250px" height="200px">
+            <div class="All-privilegia">
+                <h3 class="Privilegia1">Привилегии</h3>
+                <div class="Lite">
+                    <h2 class="Lite1">ЛАЙТ</h2>
+                    <div class="Price1">
+                        <h3 class="Price-1">15.00₽</h3>
+                        <div class="Skidka1">-40%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div id="myModalBtn" class="Litebuy">
+    <div class="buyLite">
+        <span class="closeLite" onclick="CloseModal()">&times;</span>
+            <div class="Lite-info">
+                <h1>Priveboti</h1>
+            </div>
+        </div>
+    </div>
+   
+
+         <script>function openModal() {
+            document.getElementById('myModal').style.display = 'block';
+        }
+        
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+        
+        document.getElementById('openModalBtn').addEventListener('click', openModal);
+        
+        function openBtn() {
+            document.getElementById('myModalBtn').style.display = 'block';
+        }
+        
+        function CloseModal() {
+            document.getElementById('myModalBtn').style.display = 'none';
+        }
+        
+        document.getElementById('OpenBtn').addEventListener('click', openBtn);
+        </script>             
+ <script src="https://kit.fontawesome.com/d9563bd57c.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
