@@ -300,7 +300,7 @@ body {
     body{
         overflow-x: hidden;
         background-size: cover;
-        height: 840px;
+        width: 750px;
     }
     .button{
         font-size: 13px;
@@ -334,22 +334,77 @@ body {
         font-size: 14px;
     }
     .SING-IN{
-        top:-39px;
-        font-size: 14px;
+        top:-56px;
+        font-size: 17px;
+        width: 100px;
     }
     .SING-UP{
-        top:-91px;
-        font-size: 14px;
+        top:-115px;
+        font-size: 17px;
+        width: 100px;
     } 
 }
 @media screen and (max-width:768px) {
     body{
+        margin: 0;
+        overflow-y: hidden;
         background-size: cover;
-        height: 1040px;
+        width: 300px;
+        height: 1100px;
     }
+    .button{
+        font-size: 21px;
+        padding: 10px 70px;
+        top:250px;
+        left:210px;
+    }
+    .input-pot{
+        padding: 10px;
+        top:-40px;
+        width: 450px;
+    }
+    .login{
+        font-size: 23px;
+        top:-80px;
+        left:170px;
+        
+    }
+    .Email-pol{
+        padding: 10px;
+        top: 45px;
+        width: 450px;
+    }
+    .email{
+        font-size: 23px;
+        top:10px;
+        left:170px;
+    }
+    .pass-pol{
+        padding: 10px;
+        top:130px;
+        width: 450px;
+    }
+    .password{
+        top:90px;
+        font-size: 23px;
+        left:177px;
+    }
+    .SING-IN{
+        top:-300px;
+        font-size: 24px;
+        width: 100px;
+        left:200px;
+    }
+    .SING-UP{
+        top:-375px;
+        font-size: 24px;
+        left:410px;
+        width: 100px;
+    }
+    
 }
 @media  screen and (max-width:576px) {
     body{
-       height: 1240px;
+       width: 250px;
     }
 }
