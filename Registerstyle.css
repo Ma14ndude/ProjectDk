@@ -410,7 +410,7 @@ body {
 }
 @media screen and (max-height:560px) {
     html{
-        height: 950px;
+        height: 1250px;
         margin: 0;
     }
     body{
