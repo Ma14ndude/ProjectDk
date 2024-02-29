@@ -10,6 +10,7 @@
     
 </head>
 <body class="obsh">
+    <h2 class="section1"><a href="#section2" class="section">Донат</a></h2>
     <script src="js1.js" defer></script>
     <div class="background">
         <img class="iconka" src="Icon_server.png" alt="SwayGrief" width="60px" height="60px"> 
@@ -24,7 +25,7 @@
                     <div class="outline-border">
                         <img class="verstack" src="verstack.png" width="90px">
                         <div class="online"></div>
-                        <h2 class="slots">0/150</h2>
+                        <h2 class="slots">0/500</h2>
                         <h3 class="version">1.12.x-1.16.x</h3>   
                         <h3 class="Nameborder">SwayGrief</h3>
                         <p class="Ip" onclick="copyText()">mc.swaygrief.ru</p>
@@ -76,6 +77,7 @@
  <div class="background-black">
  <div class="Tovar-name">
     <h1>ТОВАРЫ</h1>
+    <h2 class="section2" id="section2"></h2>
     <div class="border-tovar1">
         <div class="button-1">
             <button class="add-button" id="OpenBtn">Купить</button>
@@ -104,7 +106,15 @@
         </div>
     </div>
    
-
+    <script>
+        
+        window.addEventListener('load', function () {
+            if (window.location.hash) {
+                
+                history.replaceState(null, null, ' ');
+            }
+        });
+    </script>
          <script>function openModal() {
             document.getElementById('myModal').style.display = 'block';
         }
@@ -126,7 +136,17 @@
         document.getElementById('OpenBtn').addEventListener('click', openBtn);
         </script>             
  <script src="https://kit.fontawesome.com/d9563bd57c.js" crossorigin="anonymous"></script>
+<script>    
+    document.addEventListener('DOMContentLoaded', function() {
+    
+    document.getElementById('OpenBtn').addEventListener('click', function() {
+        openBtn();
 
+        
+        history.replaceState({}, document.title, window.location.pathname);
+    });
+});
+</script>
 
 </body>
 </html>
