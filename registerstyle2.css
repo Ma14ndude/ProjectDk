@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
+    overflow: hidden;
 }
 
 .container {
@@ -523,20 +523,60 @@ body {
     }
     @media  screen and (max-width:576px) {
         html{
-            height: 3000px;
+            height: 1000px;
         }
         body{
-           width: 500px;
+           width:300px;
            
         }
+        .button{
+            top:-100px;
+            left:240px;
+        }
         .Nice{
-            left:80px;
+            left:20px;
+            top:210px;
         }
         .Ok{
-            left:-210px;
+            left:-170px;
+            top:-450px;
         }
         .Login-Have{
-
+            top:-800px;
+            left:260px;
         }
+        .SING-IN{
+            top:-600px;
+            left:300px;
+        }
+        .SING-UP{
+            top:-684px;
+            left:500px;
+        }
+        .login{
+            top:-350px;
+            left:220px;
+        }
+        .input-pot{
+            top:-315px;
+            left:140px;
+        }
+        .email{
+            top:-270px;
+            left:220px;
+        }
+        .Email-pol{
+            top:-235px;
+            left:140px;
+        }
+        .password{
+            top:-200px;
+            left:218px;
+        }
+        .pass-pol{
+            top:-160px;
+            left:125px;
+        }
+
     }
     
