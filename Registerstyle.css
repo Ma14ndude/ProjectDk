@@ -148,7 +148,7 @@ body {
 .SING-UP:hover{
     text-decoration: underline 2px yellow;
 }
-@media  screen and (max-width:1920px){
+/* @media  screen and (max-width:1920px){
     .button {
         position: relative;
         top:190px;
@@ -465,4 +465,60 @@ body {
         left:395px;
     }
 
+} */
+@media screen and (max-width:1520px) {
+    .button{
+        top:300px;
+        padding: 10px 60px;
+        left:110px;
+    }
+    .password{
+        top:210px;
+        left:90px;
+    }
+    .pass-pol{
+        top:240px;
+        width: 410px;
+        padding: 6px;
+        left:0px;
+    }
+    .email{
+        top:150px;
+        left:90px;
+    }
+    .Email-pol{
+        top:180px;
+        width: 410px;
+        padding: 7px;
+        left:10px;
+    }
+    .input-pot{
+        width: 410px;
+        padding: 7px;
+        left:15px;
+        top:120px;
+    }
+    .login{
+        top:90px;
+        left:90px;
+    }
+    .SING-IN{
+        top:-130px;
+        left:50px;
+    }
+    
+    .SING-UP{
+        top:-510px;
+        left:250px;
+    }
+}
+@media screen and (max-width:1050px) {
+    html{
+        height: 1800px;
+    }
+}
+@media screen and (max-width:568px) {
+    body{
+        width: 500px;
+    }
 }
