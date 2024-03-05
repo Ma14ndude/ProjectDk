@@ -199,8 +199,7 @@ background: #3a0ca3;
     color:black; 
     width: 600px;
     height: 400px;
-    z-index: 1;
-   
+    z-index: 1;  
 }
 .modal {
     display: none;
@@ -226,6 +225,124 @@ background: #3a0ca3;
     font-family: "Open Sans", sans-serif;
     font-size: normal;
 }
+.RconModal{
+    display: none;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:2;
+}
+.Admin{
+    font-size: 28px;
+    -webkit-text-stroke: 1px black; 
+    text-stroke: 2px black;
+    font-family: "Open Sans", sans-serif;
+    font-size: normal;
+}
+
+.RconPanel{
+    position:absolute;
+    left:35%;
+    background-image: linear-gradient(to top, #608f42 0%, #08520c 100%);
+    width: 700px;
+    height: 500px;
+}
+.closeRcone{
+    position: relative;
+    font-size: 30px;
+    left:380px;
+    top:55px;
+    z-index: 2;
+    cursor: pointer;
+    color:#000000;
+}
+.Admin-Pol{
+    position: relative;
+    top:-100px; 
+    width: 500px;
+    padding-bottom: 300px;
+    padding-top: 20px;
+    border:1px solid;
+    border-radius: 20px;
+    outline:none;
+    background-color: transparent;
+    
+}
+.Vzlom-server {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 106, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  
+.Vzlom-server:hover {
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+.Vzlom-server:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+.Vzlom-server::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+.Vzlom-server:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
 .p{
     font-size: 15px;
 }
@@ -643,7 +760,15 @@ background: #3a0ca3;
 .vhod:hover{
     background-color: rgb(236, 6, 6);
 }
-
+.fa-solid.fa-terminal{
+    display: inline-block;
+    position: relative;
+    top:-1070px;
+    left:-650px;
+    font-size: 40px;
+    color:black;
+    cursor: pointer;
+}
 .fa-solid.fa-right-to-bracket{
     position: relative;
     top:-1105px;
@@ -819,7 +944,7 @@ background: #3a0ca3;
     font-family: "Open Sans", sans-serif;
     font-size: normal;
 }
- /* @media screen and (max-width:1964px) {
+@media screen and (max-width:1964px) {
     .container{
         left:1350px;
     }
@@ -827,8 +952,8 @@ background: #3a0ca3;
         top:-1105px;
     }
     
-} */
-/* @media screen and (max-width:1764px) {
+} 
+@media screen and (max-width:1764px) {
     .container{
         left:1200px;
     }
@@ -866,4 +991,4 @@ background: #3a0ca3;
 }
 @media screen and (max-width:998px) {
     
-}  */
+}

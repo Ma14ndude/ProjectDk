@@ -329,8 +329,8 @@ body {
             font-size: 19px;
         }
         .Nice{
-            top:400px;
-            left:300px;
+            top:80px;
+            left:370px;
         }
         .Login-Have{
             font-size: 17px;
@@ -387,6 +387,18 @@ body {
         }
        body{
         overflow-y: hidden;
+       }
+       .Nice{
+        left:300px;
+        width: 400px;
+        top: 70px;
+       }
+       .Login-Have{
+        font-size: 15px;
+       }
+       .Ok{
+        left:-300px;
+        padding: 11px 50px;
        }
     }
     @media screen and (max-width:998px) {
@@ -580,3 +592,8 @@ body {
 
     }
     
+@media screen and(max-width:500px) {
+    .Nice{
+        
+    }
+}

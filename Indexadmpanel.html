@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Icon_server.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleadmin.css">
     <title>SwayGrief</title>
-    <script src="https://cdn.jsdelivr.net/clipboard.js/2.0.8/clipboard.min.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/2.0.8/clipboard.min.js" defer></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" defer></script>
     
 </head>
 <body class="obsh">
-    <a href="https://misterlauncher.org/" class="mrl-vote-server" data-vote-id="62254" data-vote-type="server"><span id="mrl-vote-title"><img src="//misterlauncher.org/images/logo.png" alt="" /></span><span id="mrl-vote-counter"><u></u><i></i></span></a><script type="text/javascript" src="//misterlauncher.org/js/site/vote_widget.js"></script>
     <h2 class="section1"><a href="#section2" class="section">Донат</a></h2>
     <script src="js1.js" defer></script>
     <div class="background">
@@ -30,10 +29,10 @@
                         <h2 class="slots" id="server-status">0/150</h2>
 
 <script>
- function updateServerStatus() {
+  function updateServerStatus() {
     const serverIp = "45.93.200.10";
     const serverPort = "25585";
-    const maxPlayers = 150; // Ваше максимальное количество игроков
+    const maxPlayers = 150; 
 
     fetch(`https://api.mcsrvstat.us/2/${serverIp}:${serverPort}`)
       .then(response => response.json())
@@ -46,10 +45,10 @@
       });
   }
 
-  // Устанавливаем интервал обновления в миллисекундах (каждые 5 секунд)
+ 
   const updateInterval = 5000;
 
-  // Запускаем первое обновление
+  
   updateServerStatus();
 
   // Устанавливаем интервал для регулярного обновления
@@ -84,16 +83,33 @@
                         <span class="copied-message2">Скопированно!</span>
                         
                     </div>
-                    <div class="log-in" onmouseover="showTooltip()" onmouseout="hideTooltip()">
-                        <i class="fa-solid fa-right-to-bracket"></i>
-                        <div class="tooltip" id="tooltip">
-                            <span class="vhod" onclick="location.href='Log-in.html'">Вход</span>
-                            <br>
-                            <span class="registracia" onclick="location.href='Register1.html'">Регистрация</span>
-                        </div>
-                    </div>
-                    
-                    
+                   
+                    <i class="fa-solid fa-terminal" id="OpenRcon"></i>
+    <div id="RconModal" class="RconModal">
+        <div class="AdminRcon">
+            <span class="closeRcone" onclick="RconClose()">&times;</span>
+            <div class="RconPanel">
+               <h1 class="Admin">AdminPanel</h1>
+               <form action="Admin.php" method="post" autocomplete="off">
+                <input type="text" name="commandServer" class="Admin-Pol">
+                <button type="submit" class="Vzlom-server">Отправить!</button>
+               </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function RconOpen() {
+            document.getElementById('RconModal').style.display = 'block';
+        }
+
+        function RconClose() {
+            document.getElementById('RconModal').style.display = 'none';
+        }
+
+        document.getElementById('OpenRcon').addEventListener('click', RconOpen);
+    </script>
                     <script>
                         function copyText() {
                             var textToCopy = document.querySelector('.Ip').innerText;
