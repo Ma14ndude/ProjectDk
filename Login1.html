@@ -9,7 +9,6 @@
 </head>
 <body>
     <form action="All.php" method="post" onsubmit="return validateForm()">
-        <div class="container">
         <label class="login" for="login">Login</label>
         <input type="text" class="input-pot" name="Login"
         id="login" autocomplete="off" required minlength="4"><br>
@@ -19,11 +18,11 @@
         <button class="button">ВОЙТИ</button>
         <h1 class="SING-IN" onclick="location.href='Register1.html'">SING-IN</h1><br>
         <h1 class="SING-UP" onclick="location.href='Log-in.html'">SING-UP</h1>
-        <div class="Error">
-            <p class="Have-Pol">"Ошибка! Неверный Логин или пароль";</p>
-        </div>
+    <div class="Nice">
+    <div class="Error">
+        <p class="Have-Pol">"Ошибка! Неверный Логин или пароль";</p>
     </div>
-
+</div>
     <script>
         function validateForm() {
             var login = document.getElementById("login").value;

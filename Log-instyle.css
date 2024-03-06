@@ -1,18 +1,11 @@
-body {
-    background-image: url(kartinkazadreg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+/* body, html {
+    height: 100%;
     margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.container {
-    width: 550px;
-    height: 500px;
-    
+    padding: 0;
+    background-image: url(Site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 .login{
     color:white;
@@ -131,5 +124,403 @@ body {
 }
 .SING-IN:hover{
      text-decoration: underline 2px yellow;
+} */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(Site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
 
+.email {
+    color: rgb(11, 201, 20);
+    position: relative;
+    top: 322px;
+    left: 654px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.login {
+    color: rgb(11, 201, 20);
+    position: relative;
+    top: 246px;
+    left: 656px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.password {
+    color: rgb(11, 201, 20);
+    position: relative;
+    top: 410px;
+    left: 654px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.input-pot {
+    position: relative;
+    width: 518px;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 0px solid;
+    border-radius: 20px;
+    outline: none;
+    background-color: #a9d8f2;
+    left: 583px;
+    top: 282px;
+}
+.input-pot:focus{
+    border: 1px solid;
+    border-color: green;
+}
+
+
+.Email-pol {
+    position: relative;
+    box-sizing: border-box;
+    border: 0px solid;
+    border-radius: 20px;
+    outline: none;
+    background-color: #a9d8f2;
+    top: 360px;
+    right: -574px;
+    width: 518px;
+    padding: 13px;
+}
+.Email-pol:focus{
+    border: 1px solid;
+    border-color: green;
+}
+.Email-pol:active{
+    background-color: #a9d8f2;  
+}
+.pass-pol {
+    position: relative;
+    width: 518px;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 0px solid;
+    border-radius: 20px;
+    outline: none;
+    background-color: #a9d8f2;
+    font-size: 15px;
+    top: 445px;
+    left: 536px;
+}
+.pass-pol:focus{
+    border: 1px solid;
+    border-color: green;
+}
+.pass-pol:active{
+    background-color: #a9d8f2;
+}
+.button {
+    position: relative;
+    top: 552px;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    color: rgb(255, 255, 255);
+    padding: 15px 124px;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px #13d0ff;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    left: 744px;
+}
+
+.button:hover {
+    background-position: right center; 
+    text-decoration: none;
+}
+.SING-IN {
+    display: inline-block;
+    position: relative;
+    top: 47px;
+    left: 292px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+}
+.SING-UP {
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    left: 791px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: underline 2px yellow;
+}
+.SING-IN:hover{
+    text-decoration: underline 2px yellow;
+}
+@media screen and (max-width:1520px) {
+    .button {
+        top: 300px;
+        padding: 6px 102px;
+        left: 479px;
+    }
+    .pass-pol {
+        top: 258px;
+        width: 384px;
+        padding: 6px;
+        left: 327px;
+    }
+    .password {
+        top: 231px;
+        left: 428px;
+        font-size: 20px;
+    }
+    .email {
+        top: 172px;
+        left: 432px;
+        font-size: 20px;
+    }
+    .Email-pol {
+        top: 197px;
+        width: 383px;
+        padding: 7px;
+        left: 359px;
+    }
+    .input-pot {
+        width: 384px;
+        padding: 7px;
+        left: 366px;
+        top: 143px;
+    }
+    .login {
+        top: 117px;
+        left: 428px;
+        font-size: 20px;
+    }
+    .SING-IN {
+        top: -40px;
+        left: 259px;
+        font-size: 20px;
+    }
+    
+    .SING-UP {
+        top: -89px;
+        left: 425px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:900px) {
+    .button {
+        left: 329px;
+    }
+    .pass-pol {
+        left: 202px;
+    }
+    .password {
+        left: 305px;
+    }
+    .Email-pol {
+        left: 234px;
+    }
+    .email {
+        left: 307px;
+    }
+    .input-pot{
+        left:241px;
+    }
+    .login{
+        left:304px;
+    }
+    .SING-IN{
+        left:115px;
+    }
+    .SING-UP{
+        left:304px;
+    }
+}
+@media screen and (max-width:678px) {
+   .button{
+    left:209px;
+   }
+   .pass-pol{
+    left: 74px;
+   }
+   .password{
+    left:174px;
+   }
+   .Email-pol{
+    left:106px;
+   }
+   .email{
+    left:178px;
+   }
+   .input-pot{
+    left:114px;
+   }
+   .login{
+    left:177px;
+   }
+   .SING-IN{
+    left:66px;
+   }
+   .SING-UP{
+    left:177px;
+   }
+   
+}
+@media screen and (max-width:550px) {
+    .button {
+        left: 96px;
+        padding: 5px 55px;
+        top: 337px;
+    }
+    .pass-pol {
+        left: -9px;
+        width: 250px;
+        top: 300px;
+    }
+    .password {
+        left: 78px;
+        top: 271px;
+        font-size: 18px;
+    }
+    .email {
+        left: 81px;
+        top: 214px;
+    }
+    .Email-pol {
+        width: 250px;
+        top: 240px;
+        left: 13px;
+    }
+    .input-pot {
+        left: 21px;
+        top: 179px;
+        width: 250px;
+    }
+    .login {
+        left: 82px;
+        top: 150px;
+    }
+    .SING-IN{
+        top:0px;
+        color:white;
+    }
+    .SING-UP {
+        top: -51px;
+        left: 81px;
+        color:white;
+    }
+}
+@media screen and (max-width:332px) {
+    .pass-pol {
+        left: 74px;
+        width: 250px;
+        top: 274px;
+    }
+}
+@media screen and (max-height:429px) {
+    .SING-UP {
+        color: black;
+        top: -135px;
+    }
+    .SING-IN {
+        top: -86px;
+    }
+    .login {
+        left: 304px;
+        font-size: 16px;
+        top: 56px;
+    }
+    .input-pot {
+        left: 253px;
+        top: 82px;
+        padding: 5px;
+        width: 340px;
+    }
+    .email {
+        left: 302px;
+        top: 99px;
+        font-size: 16px;
+    }
+    .Email-pol {
+        left: 247px;
+        top: 122px;
+        padding: 5px;
+        width: 340px;
+    }
+    .password {
+        left: 300px;
+        font-size: 16px;
+        top: 133px;
+    }
+    .pass-pol {
+        left: 222px;
+        top: 159px;
+        padding: 5px;
+        width: 340px;
+    }
+    .button {
+        left: 314px;
+        top: 174px;
+    }
+}
+@media screen and (max-width:325px) {
+    .pass-pol {
+        left: 34px;
+        width: 250px;
+        top: 274px;
+    }
+    .password {
+        left: 46px;
+        top: 271px;
+        font-size: 18px;
+    }
+    .button {
+        left: 63px;
+        padding: 5px 55px;
+        top: 337px;
+    }
+    .input-pot {
+        left: -19px;
+        top: 179px;
+        width: 250px;
+    }
+    .login {
+        left: 45px;
+        top: 150px;
+    }
+    .SING-UP {
+        top: -51px;
+        color: white;
+        left:46px;
+    }
+    .SING-IN {
+        top: -1px;
+        left: -16px;
+        color: white;
+    }
+}
+@media screen and (max-width:302px) {
+    .input-pot {
+        left: 35px;
+        top: 176px;
+        width: 250px;
+    }
+    .login {
+        left: 45px;
+        top: 173px;
+    }
 }
