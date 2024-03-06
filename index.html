@@ -6,8 +6,8 @@
     <link rel="shortcut icon" href="Icon_server.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <title>SwayGrief</title>
-    <script src="https://cdn.jsdelivr.net/clipboard.js/2.0.8/clipboard.min.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/2.0.8/clipboard.min.js" defer></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" defer></script>
     
 </head>
 <body class="obsh">
@@ -33,8 +33,7 @@
  function updateServerStatus() {
     const serverIp = "45.93.200.10";
     const serverPort = "25585";
-    const maxPlayers = 150; // Ваше максимальное количество игроков
-
+    const maxPlayers = 150; 
     fetch(`https://api.mcsrvstat.us/2/${serverIp}:${serverPort}`)
       .then(response => response.json())
       .then(data => {
@@ -46,13 +45,13 @@
       });
   }
 
-  // Устанавливаем интервал обновления в миллисекундах (каждые 5 секунд)
+
   const updateInterval = 5000;
 
-  // Запускаем первое обновление
+ 
   updateServerStatus();
 
-  // Устанавливаем интервал для регулярного обновления
+ 
   setInterval(updateServerStatus, updateInterval);
 </script>
                         <h3 class="version">1.12.x-1.16.x</h3>   

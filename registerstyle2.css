@@ -491,42 +491,44 @@ body {
         }
         .input-pot{
             padding: 10px;
-            top:-40px;
+            top:-420px;
             width: 450px;
         }
         .login{
             font-size: 23px;
-            top:-80px;
+            top:-450px;
             left:180px;
         }
         .Email-pol{
             padding: 10px;
-            top: 45px;
+            top: -355px;
             width: 450px;
+            left:98px;
         }
         .email{
             font-size: 23px;
-            top:10px;
-            left:170px;
+            top:-386px;
+            left:180px;
         }
         .pass-pol{
             padding: 10px;
-            top:130px;
+            top:-290px;
             width: 450px;
+            д
         }
         .password{
-            top:90px;
+            top:-330px;
             font-size: 23px;
             left:177px;
         }
         .SING-IN{
-            top:-300px;
+            top:-700px;
             font-size: 24px;
             width: 100px;
             left:200px;
         }
         .SING-UP{
-            top:-375px;
+            top:-780px;
             font-size: 24px;
             left:410px;
             width: 100px;
