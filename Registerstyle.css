@@ -291,9 +291,62 @@ body, html {
     }
     .SING-IN{
         top:0px;
+        color:white;
     }
     .SING-UP {
         top: -51px;
         left: 81px;
+        color:white;
     }
-} 
+}
+@media screen and (max-width:332px) {
+    .pass-pol{
+        left:50px;
+    }
+}
+@media screen and (max-height:429px) {
+    .SING-UP {
+        color: black;
+        top: -135px;
+    }
+    .SING-IN {
+        top: -86px;
+    }
+    .login {
+        left: 304px;
+        font-size: 16px;
+        top: 56px;
+    }
+    .input-pot {
+        left: 253px;
+        top: 82px;
+        padding: 5px;
+        width: 340px;
+    }
+    .email {
+        left: 302px;
+        top: 99px;
+        font-size: 16px;
+    }
+    .Email-pol {
+        left: 247px;
+        top: 122px;
+        padding: 5px;
+        width: 340px;
+    }
+    .password {
+        left: 300px;
+        font-size: 16px;
+        top: 133px;
+    }
+    .pass-pol {
+        left: 222px;
+        top: 159px;
+        padding: 5px;
+        width: 340px;
+    }
+    .button {
+        left: 314px;
+        top: 174px;
+    }
+}
