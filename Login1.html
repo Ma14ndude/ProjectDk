@@ -8,21 +8,18 @@
     <link rel="stylesheet" href="Pol-have.css">
 </head>
 <body>
-    <form action="All.php" method="post" onsubmit="return validateForm()">
-        <label class="login" for="login">Login</label>
-        <input type="text" class="input-pot" name="Login"
-        id="login" autocomplete="off" required minlength="4"><br>
-        <label class="password" for="password">Password</label>  
-        <input type="password" class="pass-pol" name="pass"
-        id="pass" autocomplete="off" required minlength="4"><br>
-        <button class="button">ВОЙТИ</button>
-        <h1 class="SING-IN" onclick="location.href='Register1.html'">SING-IN</h1><br>
-        <h1 class="SING-UP" onclick="location.href='Log-in.html'">SING-UP</h1>
+
     <div class="Nice">
-    <div class="Error">
-        <p class="Have-Pol">"Ошибка! Неверный Логин или пароль";</p>
-    </div>
-</div>
+        <div class="Error">
+            <p class="Login-Have">
+                Пользователь с таким логином занят
+              </p>
+          <button class="Ok" onclick="location.href='Log-in.html'">ОК</button>
+        </div>
+      </div>
+       
+
+
     <script>
         function validateForm() {
             var login = document.getElementById("login").value;
