@@ -1,601 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&display=swap');
-body {
-    background-image: url(kartinkazadreg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+body, html {
+    height: 100%;
     margin: 0;
+    padding: 0;
+    background-image: url(Site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.Login-Have {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    top:-80px;
+    left:50px;
+    color: red;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    z-index: 2;
+}
+.Ok {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(38, 174, 184);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    position: relative;
+    left:-130px;
+    z-index: 2;
+    padding: 10px 50px;
+}
+  
+.Ok:active {
+    scale: 0.92;
+}
+  
+.Ok:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+.Nice {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.container {
-    width: 550px;
-    height: 500px;
-    
-}
-.login{
-    color:white;
-    position: relative;
-    top:-34px;
-    left:70px;
-    font-size: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-}
-.email{
-    color:white;
-    position: relative;
-    top:23px;
-    left:70px;
-    font-size: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-}
-.password{
-    color:white;
-    position: relative;
-    top:70px;
-    left:70px;
-    font-size: 23px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-}
-.input-pot{
-    position: relative;
-    width: 450px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 0px solid;
-    border-radius: 20px;
-    outline: none;
-    background-color: #a9d8f2;   
-}
-.input-pot:focus{
-    border: 1px solid;
-    border-color: green;
-}
-
-
-.Email-pol{
-    position: relative;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 0px solid;
-    border-radius: 20px;
-    outline: none;
-    background-color: #a9d8f2;
-    width: 450px;
-    top:50px;
-    right: 4px;
-}
-.Email-pol:focus{
-    border: 1px solid;
-    border-color: green;
-}
-.Email-pol:active{
-    background-color: #a9d8f2;  
-}
-
-.pass-pol {
-    position: relative;
-    width: 450px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 0px solid;
-    border-radius: 20px;
-    outline: none;
-    background-color: #a9d8f2;  
-    font-size: 15px; 
-    top: 100px;
-    left:-15px;  
-}
-.pass-pol:focus{
-    border: 1px solid;
-    border-color: green;
-}
-.pass-pol:active{
-    background-color: #a9d8f2;
-   
-}
-.button {
-    position: relative;
-    top:130px;
-    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
-    color: rgb(255, 255, 255);
-    padding: 10px 110px;
-    border: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: rgb(255, 255, 255);            
-    box-shadow: 0 0 20px #13d0ff;
-    border-radius: 10px;
-    display: block;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    left:70px; 
-}
-
-.button:hover {
-    background-position: right center; 
-    text-decoration: none;
-}
-.SING-IN{
-    position: relative;
-    top:-286px;
-    left:50px;
-    color:white;
-    font-size:24px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    text-decoration: underline 2px yellow;
-    cursor: pointer;
-}
-
-.SING-UP{
-    position: relative;
-    top:-365px;
-    left:180px;
-    color:white;
-    font-size:24px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    cursor: pointer;
-}
-.SING-UP:hover{
-    text-decoration: underline 2px yellow;
-}
-
-.Login-Have{
-    position: relative;
-    font-size: 16px;
-    top:-470px;
-    left:195px;
-    color:red;
-    font-family: "Roboto Condensed", sans-serif;
-    font-style: normal; 
-    z-index: 2;
-}
-.Ok{
-    padding: 15px 50px;
-    position: relative;
-    top:-150px;
-    left:-280px;
-    color:black;
-    background-color: lightblue;
-    border: none;
-    border-radius: 20px;
-    z-index: 2;
-}
-.Nice{
     position: absolute;
-    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-    width: 450px;
-    height: 200px;
-    top:180px;
-    left: 750px;
+    background-image: url(Nice.avif);
+    background-size: cover;
+    width: 33%;
+    height: 35%;
+    left: 35%;
+    top: 27%;
     z-index: 1;
     border-radius: 20px;
 }
-@media screen and (max-width:1920px) {
+.Error{
+    text-align: center;
+}
+@media (max-width:1230px) {
     .Nice{
-        position: absolute;
-        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-        width: 450px;
-        height: 200px;
-        top:150px;
-        left: 610px;
-        z-index: 1;
-        border-radius: 20px;
+        width: 44%;
+    }
+}
+@media (max-width:920px) {
+    .Nice{
+        width: 64%;
+    }
+}
+@media (max-width:920px) {
+    .Nice{
+        left: 15%;
+        width: 74%;
+    }
+}
+@media (max-width:548px) {
+    .Nice{
+        left: 5%;
+        width: 94%;
+    }
+}
+@media (max-width:532px) {
+    .Nice{
+        left: 0%;
+        width: 100%;
     }
     .Login-Have{
-        left: 170px;
+        left:0px;
     }
     .Ok{
-        left:-310px;
-    }
-        .button {
-            position: relative;
-            top:190px;
-            padding: 10px 110px;
-            font-size: 20px;
-           
-            left:70px; 
-        }
-        .pass-pol {
-            top: 140px;
-            left:-15px;  
-        }
-        .password{
-           
-            position: relative;
-            top:107px;
-            left:70px;
-        }
-        .Email-pol{
-            top:90px;
-            right: 4px;
-            
-        }
-        .email{
-            top:60px;
-        }
-        .input-pot{
-            top:44px;
-        }
-        .login{
-            top:10px;
-        }
-        .SING-IN{
-            top:-220px;
-        }
-        .SING-UP{
-            top:-300px;
-        }
-    }
-@media screen and (max-width:1560px) {
-    .Nice{
-        position: absolute;
-        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-        width: 450px;
-        height: 200px;
-        top:100px;
-        left: 470px;
-        z-index: 1;
-        border-radius: 20px;
+        left:0px;
     }
 }
-    @media screen and (max-width:1360px) {
-        .Nice{
-            position: absolute;
-            background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-            width: 450px;
-            height: 200px;
-            top:100px;
-            left: 410px;
-            z-index: 1;
-            border-radius: 20px;
-        }
-        .Login-Have{
-            top:-400px;
-            left: 190px;
-            font-size: 13px;
-        }
-        .Ok{
-            top:-100px;
-            font-size: 13px;
-            left:-310px;
-        }
-        .button{
-            padding: 7px 50px;
-            left:135px;
-            top:230px;
-        }
-        .pass-pol{
-            top:170px;
-            width: 350px;
-            left:56px;
-            padding: 7px;
-        }
-        .password{
-            top:135px;
-            font-size: 19px;
-            left:140px;
-    
-        }
-        .Email-pol{
-            top:120px;
-            width: 350px;
-            left:68px;
-            padding: 7px;
-        }
-        .email{
-            top:90px;
-            font-size: 19px;
-            left:140px;
-        }
-        .input-pot{
-            top:75px;
-            width: 350px;
-            left:70px;
-            padding: 7px;
-        }
-        .login{
-            top:40px;
-            font-size: 19px;
-            left:140px;
-        }
-        .SING-IN{
-            top:-135px;
-            left:130px;
-            font-size: 21px;
-        }
-        .SING-UP{
-            top:-204px;
-            left:240px;
-            font-size: 21px;
-        }
-    }
-    @media screen and (max-width:1200px) {
-        .SING-UP{
-            font-size: 18px;
-        }
-        .SING-UP{
-            font-size: 19px;
-        }
-        .Nice{
-            top:80px;
-            left:370px;
-        }
-        .Login-Have{
-            font-size: 17px;
-        }
-        .Ok{
-            top:-80px;
-            left:-270px;
-        }
-        
-    }
-    @media screen and (max-width:1060px) {
-        .button{
-            top:220px;
-            font-size: 15px;
-            left:160px;
-        }
-        .pass-pol{
-            width: 300px;
-            left:83px;
-        }
-        .password{
-            font-size: 16px;
-            top:142px;
-            left:150px;
-        }
-        .Email-pol{
-            width: 300px;
-            left:93px;
-            top:125px;
-        }
-        .email{
-            font-size: 16px;
-            left:150px;
-            top:100px;
-        }
-        .input-pot{
-            width: 300px;
-            left:95px;
-            top:90px;
-        }
-        .login{
-            font-size: 16px;
-            top:60px;
-            left:150px;
-        }
-        .SING-UP{
-            top:-165px;
-            font-size: 17px;
-        }
-        .SING-IN{
-            font-size: 17px;
-            top:-105px;
-            left:150px;
-        }
-       body{
-        overflow-y: hidden;
-       }
-       .Nice{
-        left:300px;
-        width: 400px;
-        top: 70px;
-       }
-       .Login-Have{
-        font-size: 15px;
-       }
-       .Ok{
-        left:-300px;
-        padding: 11px 50px;
-       }
-    }
-    @media screen and (max-width:998px) {
-        body{
-            overflow-x: hidden;
-            background-size: cover;
-            width: 750px;
-        }
-        .Nice{
-            width: 350px;
-            left:150px;
-        }
-        .Login-Have{
-            left:150px
-        }
-        .Ok{
-            left:-320px;
-        }
-        .button{
-            font-size: 13px;
-            padding: 7px 45px;
-            left:170px;
-        }
-        .input-pot{
-            padding: 3px;
-            top:110px;
-        }
-        .login{
-            font-size: 14px;
-            top:87px;
-        }
-        .Email-pol{
-            padding: 3px;
-            top:145px;
-        }
-        .email{
-            font-size: 14px;
-            top:123px;
-        }
-        .pass-pol{
-            width: 300px;
-            padding: 3px;
-            top:180px;
-            left:84px;
-        }
-        .password{
-            top:157px;
-            font-size: 14px;
-        }
-        .SING-IN{
-            top:-56px;
-            font-size: 17px;
-            width: 100px;
-        }
-        .SING-UP{
-            top:-115px;
-            font-size: 17px;
-            width: 100px;
-        } 
-    }
-    @media screen and (max-width:768px) {
-        body{
-            margin: 0;
-            overflow-y: hidden;
-            background-size: cover;
-            width: 550px;
-            height: 1700px;
-        }
-        .Nice{
-            left:110px;
-            top:520px;
-            width: 450px;
-            height: 300px;
-        }
-        .button{
-            font-size: 21px;
-            padding: 10px 70px;
-            top:250px;
-            left:210px;
-        }
-        .Login-Have{
-            top:-500px;
-            left:220px;
-            font-size: 23px;
-        }
-        .Ok{
-            top:-190px;
-            left:-210px;
-            padding: 15px 60px;
-        }
-        .input-pot{
-            padding: 10px;
-            top:-420px;
-            width: 450px;
-        }
-        .login{
-            font-size: 23px;
-            top:-450px;
-            left:180px;
-        }
-        .Email-pol{
-            padding: 10px;
-            top: -355px;
-            width: 450px;
-            left:98px;
-        }
-        .email{
-            font-size: 23px;
-            top:-386px;
-            left:180px;
-        }
-        .pass-pol{
-            padding: 10px;
-            top:-290px;
-            width: 450px;
-            д
-        }
-        .password{
-            top:-330px;
-            font-size: 23px;
-            left:177px;
-        }
-        .SING-IN{
-            top:-700px;
-            font-size: 24px;
-            width: 100px;
-            left:200px;
-        }
-        .SING-UP{
-            top:-780px;
-            font-size: 24px;
-            left:410px;
-            width: 100px;
-        }
-        
-    }
-    @media  screen and (max-width:576px) {
-        html{
-            height: 1000px;
-        }
-        body{
-           width:300px;
-           
-        }
-        .button{
-            top:-100px;
-            left:240px;
-        }
-        .Nice{
-            left:20px;
-            top:210px;
-        }
-        .Ok{
-            left:-170px;
-            top:-450px;
-        }
-        .Login-Have{
-            top:-800px;
-            left:260px;
-        }
-        .SING-IN{
-            top:-600px;
-            left:300px;
-        }
-        .SING-UP{
-            top:-684px;
-            left:500px;
-        }
-        .login{
-            top:-350px;
-            left:220px;
-        }
-        .input-pot{
-            top:-315px;
-            left:140px;
-        }
-        .email{
-            top:-270px;
-            left:220px;
-        }
-        .Email-pol{
-            top:-235px;
-            left:140px;
-        }
-        .password{
-            top:-200px;
-            left:218px;
-        }
-        .pass-pol{
-            top:-160px;
-            left:125px;
-        }
 
-    }
-    
-@media screen and(max-width:500px) {
-    .Nice{
-        
-    }
-}
+

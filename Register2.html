@@ -8,32 +8,15 @@
     <link rel="shortcut icon" href="Icon_server.png" type="image/png">
 </head>
 <body>  
-  
-    
-    <form action="All.php" method="post" onsubmit="return validateForm()">
-        <div class="container">
-          <label class="login" for="login">Логин</label>
-          <input type="text" class="input-pot" name="login" id="login" autocomplete="off" required minlength="4"><br>
-    
-          <label class="email" for="email">E-mail</label>
-          <input type="text" class="Email-pol" name="email" id="email" autocomplete="off"  pattern="[^\s@]+@[^\s@]+\.[^\s@]+"><br>
-    
-          <label class="password" for="password">Пароль</label>
-          <input type="password" class="pass-pol" name="pass" id="pass" autocomplete="off" required minlength="4"><br>
-    
-          <button class="button">Зарегистрироваться</button>
-    
-          <h1 class="SING-IN">SING-IN</h1><br>
-          <h1 class="SING-UP" onclick="location.href='Log-in.html'">SING-UP</h1>
-    
-          <p id="errorMessage" class="errorMessage"></p> </div>
-          <p class="Login-Have">
-            Пользователь с таким логином занят
-          </p>
-          
-      </form>
-      <button class="Ok" onclick="location.href='Register1.html'">ОК</button>
-          <div class="Nice"></div>
+       
+          <div class="Nice">
+            <div class="Error">
+                <p class="Login-Have">
+                    Пользователь с таким логином занят
+                  </p>
+              <button class="Ok" onclick="location.href='Register1.html'">ОК</button>
+            </div>
+          </div>
      
 
     <script>
