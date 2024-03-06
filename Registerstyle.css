@@ -2,48 +2,51 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(for_site.jpg);
+    background-image: url(Site.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    
 }
 
-.login{
-    color:white;
+.email {
+    color: rgb(11, 201, 20);
     position: relative;
-    top:-34px;
-    left:70px;
+    top: 322px;
+    left: 654px;
     font-size: 24px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
-.email{
-    color:white;
+.login {
+    color: rgb(11, 201, 20);
     position: relative;
-    top:23px;
-    left:70px;
+    top: 246px;
+    left: 656px;
     font-size: 24px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
-.password{
-    color:white;
+.password {
+    color: rgb(11, 201, 20);
     position: relative;
-    top:70px;
-    left:70px;
-    font-size: 23px;
+    top: 410px;
+    left: 654px;
+    font-size: 24px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
-.input-pot{
+.input-pot {
     position: relative;
-    width: 450px;
-    padding: 10px;
+    width: 518px;
+    padding: 13px;
     box-sizing: border-box;
     border: 0px solid;
     border-radius: 20px;
     outline: none;
-    background-color: #a9d8f2;   
+    background-color: #a9d8f2;
+    left: 583px;
+    top: 282px;
 }
 .input-pot:focus{
     border: 1px solid;
@@ -51,17 +54,17 @@ body, html {
 }
 
 
-.Email-pol{
+.Email-pol {
     position: relative;
-    padding: 10px;
     box-sizing: border-box;
     border: 0px solid;
     border-radius: 20px;
     outline: none;
     background-color: #a9d8f2;
-    width: 450px;
-    top:50px;
-    right: 4px;
+    top: 360px;
+    right: -574px;
+    width: 518px;
+    padding: 13px;
 }
 .Email-pol:focus{
     border: 1px solid;
@@ -70,19 +73,18 @@ body, html {
 .Email-pol:active{
     background-color: #a9d8f2;  
 }
-
 .pass-pol {
     position: relative;
-    width: 450px;
-    padding: 10px;
+    width: 518px;
+    padding: 13px;
     box-sizing: border-box;
     border: 0px solid;
     border-radius: 20px;
     outline: none;
-    background-color: #a9d8f2;  
-    font-size: 15px; 
-    top: 100px;
-    left:-15px;  
+    background-color: #a9d8f2;
+    font-size: 15px;
+    top: 445px;
+    left: 536px;
 }
 .pass-pol:focus{
     border: 1px solid;
@@ -93,164 +95,205 @@ body, html {
 }
 .button {
     position: relative;
-    top:130px;
-    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    top: 552px;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
     color: rgb(255, 255, 255);
-    padding: 10px 110px;
+    padding: 15px 124px;
     border: none;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: rgb(255, 255, 255);            
+    color: rgb(255, 255, 255);
     box-shadow: 0 0 20px #13d0ff;
     border-radius: 10px;
-    display: block;
+    display: inline-block;
     cursor: pointer;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
-    left:70px; 
+    left: 744px;
 }
 
 .button:hover {
     background-position: right center; 
     text-decoration: none;
 }
-.SING-IN{
+.SING-IN {
+    display: inline-block;
     position: relative;
-    top:-286px;
-    left:50px;
-    color:white;
-    font-size:24px;
+    top: 47px;
+    left: 292px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
-    text-decoration: underline 2px yellow;
     cursor: pointer;
+}
+.SING-UP {
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    left: 791px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: underline 2px yellow;
+}
+.SING-IN:hover{
+    text-decoration: underline 2px yellow;
 }
 
-.SING-UP{
-    position: relative;
-    top:-365px;
-    left:180px;
-    color:white;
-    font-size:24px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    cursor: pointer;
-}
-.SING-UP:hover{
-    text-decoration: underline 2px yellow;
-}
 @media screen and (max-width:1520px) {
-    .button{
-        top:300px;
-        padding: 10px 60px;
-        left:110px;
-    }
-    .password{
-        top:210px;
-        left:90px;
-    }
-    .pass-pol{
-        top:240px;
-        width: 410px;
-        padding: 6px;
-        left:0px;
-    }
-    .email{
-        top:150px;
-        left:90px;
-    }
-    .Email-pol{
-        top:180px;
-        width: 410px;
-        padding: 7px;
-        left:10px;
-    }
-    .input-pot{
-        width: 410px;
-        padding: 7px;
-        left:15px;
-        top:120px;
-    }
-    .login{
-        top:90px;
-        left:90px;
-    }
-    .SING-IN{
-        top:-130px;
-        left:50px;
-    }
-    
-    .SING-UP{
-        top:-210px;
-        left:250px;
-    }
-}
-@media screen and (max-width:1050px) {
-   
-}
-@media screen and (max-width:576px) {
-   .button{
-    left:86px;
-   }
-   .pass-pol{
-    left: -28px;
-   }
-   .password{
-    left:66px;
-   }
-   .Email-pol{
-    left:-16px;
-   }
-   .email{
-    left:67px;
-   }
-   .input-pot{
-    left:-13px;
-   }
-   .login{
-    left:67px;
-   }
-   
-}
-@media screen and (max-width:488px) {
     .button {
-        left: 4px;
-        padding: 8px 25px;
+        top: 300px;
+        padding: 6px 102px;
+        left: 479px;
     }
     .pass-pol {
-        left: 9px;
-        width: 281px;
+        top: 258px;
+        width: 384px;
+        padding: 6px;
+        left: 327px;
     }
     .password {
-        left: 17px;
-        top: 235px;
-    }
-    .Email-pol {
-        width: 281px;
-        left: 10px;
+        top: 231px;
+        left: 428px;
+        font-size: 20px;
     }
     .email {
-        left: 18px;
-        top: 175px;
+        top: 172px;
+        left: 432px;
+        font-size: 20px;
+    }
+    .Email-pol {
+        top: 197px;
+        width: 383px;
+        padding: 7px;
+        left: 359px;
     }
     .input-pot {
-        left: 10px;
-        width: 281px;
+        width: 384px;
+        padding: 7px;
+        left: 366px;
+        top: 143px;
     }
     .login {
-        left: 21px;
-        top: 115px;
-    }
-    .SING-UP {
-        top: -270px;
-        left: 142px;
+        top: 117px;
+        left: 428px;
+        font-size: 20px;
     }
     .SING-IN {
-        top: -192px;
-        left: 19px;
+        top: -40px;
+        left: 259px;
+        font-size: 20px;
     }
     
-    
+    .SING-UP {
+        top: -89px;
+        left: 425px;
+        font-size: 20px;
+    }
 }
+@media screen and (max-width:900px) {
+    .button {
+        left: 329px;
+    }
+    .pass-pol {
+        left: 202px;
+    }
+    .password {
+        left: 305px;
+    }
+    .Email-pol {
+        left: 234px;
+    }
+    .email {
+        left: 307px;
+    }
+    .input-pot{
+        left:241px;
+    }
+    .login{
+        left:304px;
+    }
+    .SING-IN{
+        left:115px;
+    }
+    .SING-UP{
+        left:304px;
+    }
+}
+@media screen and (max-width:678px) {
+   .button{
+    left:209px;
+   }
+   .pass-pol{
+    left: 74px;
+   }
+   .password{
+    left:174px;
+   }
+   .Email-pol{
+    left:106px;
+   }
+   .email{
+    left:178px;
+   }
+   .input-pot{
+    left:114px;
+   }
+   .login{
+    left:177px;
+   }
+   .SING-IN{
+    left:-7px;
+   }
+   .SING-UP{
+    left:177px;
+   }
+   
+}
+@media screen and (max-width:550px) {
+    .button {
+        left: 96px;
+        padding: 5px 55px;
+        top: 337px;
+    }
+    .pass-pol {
+        left: -9px;
+        width: 250px;
+        top: 300px;
+    }
+    .password {
+        left: 78px;
+        top: 271px;
+        font-size: 18px;
+    }
+    .email {
+        left: 81px;
+        top: 214px;
+    }
+    .Email-pol {
+        width: 250px;
+        top: 240px;
+        left: 13px;
+    }
+    .input-pot {
+        left: 21px;
+        top: 179px;
+        width: 250px;
+    }
+    .login {
+        left: 82px;
+        top: 150px;
+    }
+    .SING-IN{
+        top:0px;
+    }
+    .SING-UP {
+        top: -51px;
+        left: 81px;
+    }
+} 
