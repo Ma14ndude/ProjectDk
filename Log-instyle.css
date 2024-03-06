@@ -254,6 +254,7 @@ body, html {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     cursor: pointer;
+    text-decoration: underline 2px yellow;
 }
 .SING-UP {
     display: inline-block;
@@ -265,9 +266,9 @@ body, html {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     cursor: pointer;
-    text-decoration: underline 2px yellow;
+    
 }
-.SING-IN:hover{
+.SING-UP:hover{
     text-decoration: underline 2px yellow;
 }
 @media screen and (max-width:1520px) {
@@ -343,8 +344,8 @@ body, html {
     .login{
         left:304px;
     }
-    .SING-IN{
-        left:115px;
+    .SING-IN {
+        left: 197px;
     }
     .SING-UP{
         left:304px;
@@ -434,10 +435,11 @@ body, html {
 @media screen and (max-height:429px) {
     .SING-UP {
         color: black;
-        top: -135px;
+        top: -88px;
     }
     .SING-IN {
-        top: -86px;
+        top: -38px;
+        left: 169px;
     }
     .login {
         left: 304px;
@@ -476,7 +478,7 @@ body, html {
         left: 314px;
         top: 174px;
     }
-}
+} 
 @media screen and (max-width:325px) {
     .pass-pol {
         left: 34px;
