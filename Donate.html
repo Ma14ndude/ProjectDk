@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icon_server.png" type="image/png">
+    <title>Donate-SwayGrief</title>
+    <link rel="stylesheet" href="donate.css">
+    <script src="https://kit.fontawesome.com/d9563bd57c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <img class="iconka" src="Icon_server.png" alt="SwayGrief" width="60px" height="60px" onclick="location='index.html'"> 
+
+ <div class="Tovar-name">
+    <h1>ТОВАРЫ Грифа:</h1>
+    <div class="flex">
+    <div class="border-tovar1">
+        <div class="button-1">
+            <button class="add-button" id="OpenBtn" onclick="OpenBtn()">Купить</button>
+        </div>
+        <div class="image-tovar1">
+            <img class="image-Lite" src="Lite.png" alt="Lite" width="250px" height="200px">
+            <div class="All-privilegia">
+                <div class="Lite">
+                    <h2 class="Lite1">ЛАЙТ</h2>
+                    <div class="Price1">
+                        <h3 class="Price-1">15.00₽</h3>
+                    </div>
+                    <div class="Skidka1">-40%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="OLite1" class="OLite1">
+        <div class="InfoLite1">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 class="formtext">Для покупки товаров заполните форму</h2>
+            <div class="form">
+                <input type="text" class="Nick" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy">Купить</button>
+               <div id="errorMessage1">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+                var checkbox = document.getElementById('checkbox');
+                var buyButton = document.getElementById('Buy');
+                var errorMessage = document.getElementById('errorMessage1');
+            
+                buyButton.addEventListener('click', function() {
+                    if (!checkbox.checked) {
+                        errorMessage.style.display = 'block';
+                    } else {
+                        errorMessage.style.display = 'none';
+                         
+                    }
+                });
+            </script>
+            
+                <h1 class="Platej">Оформление платежа</h1>
+                
+                <div class="Platejinfo">
+                    <img class="ImgLite" src="Lite.png" width="250px" height="200px">
+                    <h2 class="positionLite">ЛАЙТ</h2>
+                    <h3 class="PriceLite">15.00₽</h3>
+                </div>
+                
+                <div class="PlatejinfoL">
+                    <h4 class="InfoLite">
+                        <p class="PLite">ЛАЙТ</p>
+                        <p class="Can">ВОЗМОЖНОСТИ:<br>
+                        ⭔ Надеть блок на голову - /hat<br>
+                        ⭔ Доступ к донат чату- @(сообщение)<br>
+                        ⭔ Открыть виртуальный эндер сундук - /ec<br>
+                        ⭔ Открыть виртуальный верстак - /craft<br>
+                        ⭔ Зарплата каждые 45 минут - /salary<br></p>
+                        
+                        <p class="Dop">⚝ДОПОЛНИТЕЛЬНО:<br></p>
+                        <p class="Dop1">▪ Собственный набор - /kit<br>
+                        ▪ Префикс в ТАБЕ и ЧАТЕ ЛАЙТ (Ваш никнейм)<br>
+                        ▪ Доступно регионов привата: 3, /rg claim<br>
+                        ▪ Доступно точек дома: 5</h4></p>
+                    </div>
+                    <h1 class="Itog">ИТОГО:</h1>
+            <h1 class="Itogcost">15.00₽</h1>
+            <div class="warring">
+                <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                    в случаи утери аккаунта вы можете доказать
+                что он ваш.
+                <i class="fa-solid fa-circle-exclamation"></i>
+            <a href="https://vk.com/swaygrief">Вк</a></h4>
+           
+            </div>
+                </div> 
+            </div>
+        </div>
+
+    <script>
+       function OpenBtn() {
+    var modal = document.getElementById('OLite1');
+    modal.classList.add('show'); 
+}
+
+function closeModal() {
+    var modal = document.getElementById('OLite1');
+    modal.classList.remove('show'); 
+}
+    </script>
+   <div class="border-tovar2">
+        <div class="button-2">
+            <button class="add-button2" id="OpenBtn1" onclick="OpenBtn1()">Купить</button>
+        </div>
+        <div class="image-tovar2">
+            <img class="image-Ricar" src="Ricar.png" alt="Ricar" width="250px" height="200px">
+            <div class="All-privilegia2">
+                    <h2 class="Ricar">РЫЦАРЬ</h2>
+                    <div class="Price2">
+                        <h3 class="Price-2">20.00₽</h3>
+                    </div>
+                    <div class="Skidka2">-64%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ORicar" class="ORicar">
+        <div class="InfoRicar">
+            <span class="close1" onclick="closeModal1()">&times;</span>
+            <h2 class="formtext1">Для покупки товаров заполните форму</h2>
+            <div class="form1">
+                <input type="text" class="Nick1" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email1" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo1" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox2" id="checkbox2">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy1">Купить</button>
+               <div id="errorMessage2">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox3 = document.getElementById('checkbox2');
+        var buyButton1 = document.getElementById('Buy1');
+        var errorMessage2 = document.getElementById('errorMessage2');
+
+        buyButton1.addEventListener('click', function() {
+            if (!checkbox3.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="Ricar.png" width="250px" height="200px">
+                <h2 class="positionLite">РЫЦАРЬ</h2>
+                <h3 class="PriceLite">20.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite">РЫЦАРЬ</p>
+                    <p class="Can">✿ ВОЗМОЖНОСТИ:<br>
+                    ⭔ Восстановить запас голода - /feed<br>
+                    ⭔ Очистить свой инвентарь - /clear<br>
+                    ⭔ Кинуть игрока в ЧС - /ignore<br>
+                    ⭔ Восстановить запас жизней - /heal<br>
+                    ⭔ Зарплата каждые 45 минут - /salary<br></p>
+                    
+                    <p class="Dop">⚝ДОПОЛНИТЕЛЬНО:<br></p>
+                    <p class="Dop1">▪ Собственный набор - /kit<br>
+                    ▪ Префикс в ТАБЕ и ЧАТЕ РЫЦАРЬ (Ваш никнейм)<br>
+                    ▪ Доступно регионов привата: 5, /rg claim<br>
+                    ▪ Доступно точек дома: 5<br>
+                    ▪ Все возможности предыдущей привилегии</h4></p>
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">20.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+
+           <script>
+               function OpenBtn1() {
+    var modal = document.getElementById('ORicar');
+    modal.classList.add('show'); 
+}
+function closeModal1() {
+    var modal = document.getElementById('ORicar');
+    modal.classList.remove('show'); 
+}
+            </script> 
+    <div class="border-tovar3">
+        <div class="button-3">
+            <button class="add-button3" id="OpenBtn2" onclick="OpenBtn2()">Купить</button>
+        </div>
+        <div class="image-tovar3">
+            <img class="image-Paladin" src="Paladine.png" alt="Paladine" width="250px" height="200px">
+            <div class="All-privilegia3">
+                    <h2 class="Paladine">ПАЛАДИН</h2>
+                    <div class="Price3">
+                        <h3 class="Price-3">30.00₽</h3>
+                    </div>
+                    <div class="Skidka3">-62%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="OPaladin" class="OPaladin">
+    <div class="InfoPaladin">
+        <span class="close2" onclick="closeModal2()">&times;</span>
+        <h2 class="formtext2">Для покупки товаров заполните форму</h2>
+        <div class="form2">
+            <input type="text" class="Nick2" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+            <input type="text" class="Email2" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+            <input type="text" class="Promo2" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+            <label for="checkbox">
+                <input type="checkbox" class="checkbox3" id="checkbox3">
+            </label>
+            <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+           <button class="Buy" id="Buy2">Купить</button>
+           <div id="errorMessage3">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+        </div>
+        <script>
+         document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox3');
+        var buyButton = document.getElementById('Buy2');
+        var errorMessage2 = document.getElementById('errorMessage3');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+        </script>
+        <h1 class="Platej">Оформление платежа</h1>
+            
+        <div class="Platejinfo">
+            <img class="ImgLite" src="Paladine.png" width="250px" height="200px">
+            <h2 class="positionLite">ПАЛАДИН</h2>
+            <h3 class="PriceLite">30.00₽</h3>
+        </div>
+        
+        <div class="PlatejinfoL">
+            <h4 class="InfoLite">
+                <p class="PLite">ПАЛАДИН</p>
+                <p class="Can">✿ ВОЗМОЖНОСТИ:<br>
+                ⭔ Установить время для себя - /ptime<br>
+                ⭔ Посмотреть кто рядом - /near<br>
+                ⭔ Зарплата каждые 45 минут - /salary<br></p>
+                
+                <p class="Dop">⚝ДОПОЛНИТЕЛЬНО:<br></p>
+                <p class="Dop1">▪ Собственный набор - /kit<br>
+                ▪ Префикс в ТАБЕ и ЧАТЕ ПАЛАДИН (Ваш никнейм)<br>
+                ▪ Доступно регионов привата: 7, /rg claim<br>
+                ▪ Доступно точек дома: 5<br>
+                ▪ Все возможности предыдущей привилегии</h4></p>
+            </div>
+            <h1 class="Itog">ИТОГО:</h1>
+    <h1 class="Itogcost">30.00₽</h1>
+    <div class="warring">
+        <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+            в случаи утери аккаунта вы можете доказать
+        что он ваш.
+        <i class="fa-solid fa-circle-exclamation"></i>
+    <a href="https://vk.com/swaygrief">Вк</a></h4>
+   
+    </div>
+        </div> 
+    </div>
+</div>
+<script>
+    function OpenBtn2() {
+var modal = document.getElementById('OPaladin');
+modal.classList.add('show'); 
+}
+function closeModal2() {
+var modal = document.getElementById('OPaladin');
+modal.classList.remove('show'); 
+}
+ </script> 
+  <div class="border-tovar4">
+        <div class="button-4">
+            <button class="add-button4" id="OpenBtn4" onclick="OpenBtn4()">Купить</button>
+        </div>
+        <div class="image-tovar4">
+            <img class="image-Dragon" src="Dragonneback.png" alt="Dragon" width="250px" height="200px">
+            <div class="All-privilegia4">
+                    <h2 class="Dragon">ДРАГОН</h2>
+                    <div class="Price4">
+                        <h3 class="Price-4">40.00₽</h3>
+                    </div>
+                    <div class="Skidka4">-60%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div id="ODragon" class="ODragon">
+    <div class="InfoDragon">
+        <span class="close3" onclick="closeModal3()">&times;</span>
+        <h2 class="formtext3">Для покупки товаров заполните форму</h2>
+        <div class="form3">
+            <input type="text" class="Nick3" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+            <input type="text" class="Email3" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+            <input type="text" class="Promo3" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+            <label for="checkbox">
+                <input type="checkbox" class="checkbox4" id="checkbox4">
+            </label>
+            <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+           <button class="Buy" id="Buy3">Купить</button>
+           <div id="errorMessage4">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+        </div>
+        <script>
+         document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox4');
+        var buyButton = document.getElementById('Buy3');
+        var errorMessage2 = document.getElementById('errorMessage4');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+        </script>
+        <h1 class="Platej">Оформление платежа</h1>
+            
+        <div class="Platejinfo">
+            <img class="ImgLite" src="Dragonneback.png" width="250px" height="200px">
+            <h2 class="positionLite">ДРАГОН</h2>
+            <h3 class="PriceLite">40.00₽</h3>
+        </div>
+        
+        <div class="PlatejinfoL">
+            <h4 class="InfoLite">
+                <p class="PLite">ДРАГОН</p>
+                <p class="Can">✿ ВОЗМОЖНОСТИ:<br>
+                ⭔ Посмотреть инвентарь - /inv<br>
+                ⭔ Узнать настоящий ник игрока - /realname<br>
+                ⭔ Посмотреть погоду на сервере - /weather<br>
+                ⭔ Посмотреть время на сервере - /time
+                ⭔ Зарплата каждые 45 минут - /salary</p>
+                
+                <p class="Dop">⚝ДОПОЛНИТЕЛЬНО:<br></p>
+                <p class="Dop1">▪ Собственный набор - /kit<br>
+                ▪ Префикс в ТАБЕ и ЧАТЕ ДРАГОН (Ваш никнейм)<br>
+                ▪ Доступно регионов привата: 9, /rg claim<br>
+                ▪ Доступно точек дома: 10<br>
+                ▪ Все возможности предыдущей привилегии</h4></p>
+            </div>
+            <h1 class="Itog">ИТОГО:</h1>
+    <h1 class="Itogcost">40.00₽</h1>
+    <div class="warring">
+        <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+            в случаи утери аккаунта вы можете доказать
+        что он ваш.
+        <i class="fa-solid fa-circle-exclamation"></i>
+    <a href="https://vk.com/swaygrief">Вк</a></h4>
+   
+    </div>
+        </div> 
+    </div>
+</div>
+ <script>
+    function OpenBtn4() {
+var modal = document.getElementById('ODragon');
+modal.classList.add('show'); 
+}
+function closeModal3() {
+var modal = document.getElementById('ODragon');
+modal.classList.remove('show'); 
+}
+ </script> 
+
+     <div class="border-tovar5">
+        <div class="button-5">
+            <button class="add-button5" id="OpenBtn5" onclick="OpenBtn5()">Купить</button>
+        </div>
+        <div class="image-tovar5">
+            <img class="image-Legend" src="backlegend1.png" alt="Legend" width="350px" height="250px">
+            <div class="All-privilegia5">
+                    <h2 class="Legend">ЛЕГЕНДА</h2>
+                    <div class="Price5">
+                        <h3 class="Price-5">50.00₽</h3>
+                    </div>
+                    <div class="Skidka5">-61%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="OLegend" class="OLegend">
+        <div class="InfoLegend">
+            <span class="close4" onclick="closeModal4()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy4">Купить</button>
+               <div id="errorMessage5">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+             document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy4');
+        var errorMessage2 = document.getElementById('errorMessage5');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="backlegend1.png" width="250px" height="200px">
+                <h2 class="positionLite">ЛЕГЕНДА</h2>
+                <h3 class="PriceLite">50.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite">ЛЕГЕНДА</p>
+                    <p class="Can">✿ ВОЗМОЖНОСТИ:<br>
+                    ⭔ Узнать всю информацию о игроке - /whois<br>
+                    ⭔ Потушить себя - /ext<br>
+                    ⭔ Узнать координаты игрка - /pos<br>
+                    ⭔ Зарплата каждые 45 минут - /salary</p>
+                    
+                    <p class="Dop">⚝ДОПОЛНИТЕЛЬНО:<br></p>
+                    <p class="Dop1">▪ Собственный набор - /kit<br>
+                    ▪ Префикс в ТАБЕ и ЧАТЕ ЛЕГЕНДА (Ваш никнейм)<br>
+                    ▪ Доступно регионов привата: 11, /rg claim<br>
+                    ▪ Доступно точек дома: 10<br>
+                    ▪ Все возможности предыдущей привилегии</h4></p>
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">50.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn5() {
+    var modal = document.getElementById('OLegend');
+    modal.classList.add('show'); 
+    }
+    function closeModal4() {
+    var modal = document.getElementById('OLegend');
+    modal.classList.remove('show'); 
+    }
+     </script> 
+    <div class="border-tovar6">
+        <div class="button-6">
+            <button class="add-button6" id="OpenBtn6" onclick="OpenBtn6()">Купить</button>
+        </div>
+        <div class="image-tovar6">
+            <img class="image-Imperator" src="Imperator.png" alt="Imperator" width="250px" height="200px">
+            <div class="All-privilegia6">
+                
+                    <h2 class="Imperator">ИМПЕРАТОР + 1000Ⓟ
+                    </h2>
+                    <div class="Price6">
+                        <h3 class="Price-6">129.00₽</h3>
+                    </div>
+                    <div class="Skidka6">-57%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="OImperator" class="OImperator">
+        <div class="InfoImperator">
+            <span class="close4" onclick="closeModal5()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy5">Купить</button>
+               <div id="errorMessage6">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy5');
+        var errorMessage2 = document.getElementById('errorMessage6');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="Imperator.png" width="250px" height="200px">
+                <h2 class="positionLite">ИМПЕРАТОР</h2>
+                <h3 class="PriceLite">129.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite">ИМПЕРАТОР + 1000 Ⓟ</p>
+                    <p class="Can">✿ ВОЗМОЖНОСТИ:<br>
+                    ⭔ Установить варп - /setwarp (Лимит: 5 варпов)<br>
+                    ⭔ Удалить варп - /delwarp<br>
+                    ⭔ Установить день - /day<br>
+                    ⭔ Установить ночь - /night
+                    ⭔ Зарплата каждые 45 минут - /salary</p>
+                    
+                    <p class="Dop">⚝ДОПОЛНИТЕЛЬНО:<br></p>
+                    <p class="Dop1">▪ Собственный набор - /kit<br>
+                    ▪ Префикс в ТАБЕ и ЧАТЕ ИМПЕРАТОР (Ваш никнейм)<br>
+                    ▪ Доступно регионов привата: 15, /rg claim<br>
+                    ▪ Доступно точек дома: 15<br>
+                    ▪ Все возможности предыдущей привилегии</h4></p>
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">129.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn6() {
+    var modal = document.getElementById('OImperator');
+    modal.classList.add('show'); 
+    }
+    function closeModal5() {
+    var modal = document.getElementById('OImperator');
+    modal.classList.remove('show'); 
+    }
+     </script> 
+    <div class="border-tovar7">
+        <div class="button-7">
+            <button class="add-button7" id="OpenBtn7" onclick="OpenBtn7()">Купить</button>
+        </div>
+        <div class="image-tovar7">
+            <img class="image-Rolecks" src="Rolecks.png" alt="Rolecks" width="250px" height="200px">
+            <div class="All-privilegia7">
+                
+                    <h2 class="Rolecks">РОЛЕКС + 3000Ⓟ</h2>
+                    <div class="Price7">
+                        <h3 class="Price-7">239.00₽</h3>
+                    </div>
+                    <div class="Skidka7">-43%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ORolecks" class="ORolecks">
+        <div class="InfoRolecks">
+            <span class="close4" onclick="closeModal6()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy6">Купить</button>
+               <div id="errorMessage7">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy6');
+        var errorMessage2 = document.getElementById('errorMessage7');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="Rolecks.png" width="250px" height="200px">
+                <h2 class="positionLite">РОЛЕКС</h2>
+                <h3 class="PriceLite">239.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite8">РОЛЕКС</p>
+                    <p class="Can8">✿ ВОЗМОЖНОСТИ:<br>
+                    ⭔ Бонус к покупке - 3000Ⓟ донат-валюты<br>
+                    ⭔ Заблокировать чат игроку - /tempmute (строго по правилам)<br>
+                    ⭔ Телепортироваться к рандомному игроку - /rtp<br>
+                    ⭔ Включить полет - /fly<br>
+                    ⭔ Установить ясную погоду - /sun<br>
+                    ⭔ Установить штормовую погоду - /storm<br>
+                    ⭔ Установить варп - /setwarp (Лимит: 10 варпов)<br>
+                    ⭔ Починить все предметы - /repair all<br>
+                    ⭔ Вылечить игрока - /heal (ник)<br>
+                    ⭔ Накормить игрока - /feed (ник)<br>
+                    ⭔ Посмотреть чужой эндер-сундук - /ec (ник)<br>
+                    ⭔ Зарплата каждые 45 минут - /salary (РУБЛЕВАЯ ЗАРПЛАТА)<br>
+                    ▪ Префикс в ТАБЕ и ЧАТЕ РОЛЕКС (Ваш никнейм)<br>
+                    ▪ Доступно регионов привата: 27, /rg claim<br>
+                    
+                </p>
+                    
+                
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">239.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn7() {
+    var modal = document.getElementById('ORolecks');
+    modal.classList.add('show'); 
+    }
+    function closeModal6() {
+    var modal = document.getElementById('ORolecks');
+    modal.classList.remove('show'); 
+    }
+     </script> 
+    <div class="border-tovar8">
+        <div class="button-8">
+            <button class="add-button8" id="OpenBtn8" onclick="OpenBtn8()">Купить</button>
+        </div>
+        <div class="image-tovar8">
+            <img class="image-Toiner" src="Toiner.png" alt="Toiner" width="250px" height="200px">
+            <div class="All-privilegia8">
+                
+                    <h2 class="Toiner">ТОЙНЕР + 6000Ⓟ</h2>
+                    <div class="Price8">
+                        <h3 class="Price-8">399.00₽</h3>
+                    </div>
+                    <div class="Skidka8">-43%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="OToiner" class="OToiner">
+        <div class="InfoToiner">
+            <span class="close5" onclick="closeModal7()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy7">Купить</button>
+               <div id="errorMessage8">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy7');
+        var errorMessage2 = document.getElementById('errorMessage8');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="Toiner.png" width="250px" height="200px">
+                <h2 class="positionLite">ТОЙНЕР</h2>
+                <h3 class="PriceLite">399.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite9">ДРАГОН</p>
+                    <p class="Can9">✿ ВОЗМОЖНОСТИ:<br>
+                        ⭔ Бонус к покупке - 6000Ⓟ донат-валюты<br>
+                        ⭔  Вы можете вызывать на Проверки<br>
+                        ⭔ Вы можете банить читера Без Проверки<br>
+                        ⭔ Заблокировать игрока - /tempban (строго по правилам)<br>
+                        ⭔ Заблокировать чат игроку - /tempmute (строго по правилам)<br>
+                        ⭔ Смотреть бан-лист - /banlist<br>
+                        ⭔ Разбанить игрока - /unban (строго по правилам)<br>
+                        ⭔ Сообщение на весь сервер - /broadcast<br>
+                        ⭔ Посмотреть TPS сервера - /gc<br>
+                        ⭔ Установить точку телепортации - /setwarp (Лимит: 20 варпов)<br>
+                        ⭔ Зарплата каждые 45 минут - /salary (РУБЛЕВАЯ ЗАРПЛАТА)<br>
+                        ⭐ САМАЯ КРУТАЯ И СТАТУСНАЯ ПРИВИЛЕГИЯ СЕРВЕРА<br>
+                        ⭐ ВЫ ПОПАДАЕТЕ В ОФИЦИАЛЬНУЮ БЕСЕДУ СЕРВЕРА<br>
+                        ⭐ БОНУС: ВЫ ПОПАДАЕТЕ В ОБСУЖДЕНИЯ/КОНТАКТЫ ГРУППЫ ВК</p>
+                    
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">399.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn8() {
+    var modal = document.getElementById('OToiner');
+    modal.classList.add('show'); 
+    }
+    function closeModal7() {
+    var modal = document.getElementById('OToiner');
+    modal.classList.remove('show'); 
+    }
+     </script>  
+    <div class="border-tovar9">
+        <div class="button-9">
+            <button class="add-button9" id="OpenBtn9" onclick="OpenBtn9()">Купить</button>
+        </div>
+        <div class="image-tovar9">
+            <img class="image-Key1" src="redkey1.png" alt="Key" width="250px" height="200px">
+            <div class="All-privilegia9">
+                    <h2 class="Key1">Кейс с рублями х1</h2>
+                    <div class="Price9">
+                        <h3 class="Price-9">49.00₽</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="OKey1" class="OKey1">
+        <div class="InfoOKey1">
+            <span class="close7" onclick="closeModal8()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy8">Купить</button>
+               <div id="errorMessage9">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy8');
+        var errorMessage2 = document.getElementById('errorMessage9');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="redkey1.png" width="250px" height="200px">
+                <h2 class="positionLite">Кейс с рублями х1</h2>
+                <h3 class="PriceLite">49.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite"></p>
+                    
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">49.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn9() {
+    var modal = document.getElementById('OKey1');
+    modal.classList.add('show'); 
+    }
+    function closeModal8() {
+    var modal = document.getElementById('OKey1');
+    modal.classList.remove('show'); 
+    }
+     </script>  
+    <div class="border-tovar10">
+        <div class="button-10">
+            <button class="add-button10" id="OpenBtn10" onclick="OpenBtn10()">Купить</button>
+        </div>
+        <div class="image-tovar10">
+            <img class="image-Key2" src="greenkey2.png" alt="Key" width="250px" height="200px">
+            <div class="All-privilegia10">
+                    <h2 class="Key2">Кейс с рублями х3</h2>
+                    <div class="Price10">
+                        <h3 class="Price-10">99.00₽</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="OKey2" class="OKey2">
+        <div class="InfoOKey2">
+            <span class="close8" onclick="closeModal9()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy9">Купить</button>
+               <div id="errorMessage10">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy9');
+        var errorMessage2 = document.getElementById('errorMessage10');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="greenkey2.png" width="250px" height="200px">
+                <h2 class="positionLite">Кейс с рублями х3</h2>
+                <h3 class="PriceLite">99.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite"></p>
+                    
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">99.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn10() {
+    var modal = document.getElementById('OKey2');
+    modal.classList.add('show'); 
+    }
+    function closeModal9() {
+    var modal = document.getElementById('OKey2');
+    modal.classList.remove('show'); 
+    }
+     </script>   
+    <div class="border-tovar11">
+        <div class="button-11">
+            <button class="add-button11" id="OpenBtn11" onclick="OpenBtn11()">Купить</button>
+        </div>
+        <div class="image-tovar11">
+            <img class="image-Key3" src="key3.png" alt="Key" width="250px" height="200px">
+            <div class="All-privilegia11">
+                    <h2 class="Key3">Кейс с рублями х5</h2>
+                    <div class="Price11">
+                        <h3 class="Price-11">149.00₽</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div id="OKey3" class="OKey3">
+        <div class="InfoOKey3">
+            <span class="close9" onclick="closeModal10()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy10">Купить</button>
+               <div id="errorMessage11">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy10');
+        var errorMessage2 = document.getElementById('errorMessage11');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="greenkey2.png" width="250px" height="200px">
+                <h2 class="positionLite">Кейс с рублями х5</h2>
+                <h3 class="PriceLite">149.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite"></p>
+                    
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">149.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn11() {
+    var modal = document.getElementById('OKey3');
+    modal.classList.add('show'); 
+    }
+    function closeModal10() {
+    var modal = document.getElementById('OKey3');
+    modal.classList.remove('show'); 
+    }
+     </script> 
+    <div class="border-tovar12">
+        <div class="button-12">
+            <button class="add-button12" id="OpenBtn12" onclick="OpenBtn12()">Купить</button>
+        </div>
+        <div class="image-tovar12">
+            <img class="image-Key4" src="purplekey.png" alt="Key" width="250px" height="200px">
+            <div class="All-privilegia12">
+                    <h2 class="Key4">Кейс с рублями х10</h2>
+                    <div class="Price12">
+                        <h3 class="Price-12">219.00₽</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="OKey4" class="OKey4">
+        <div class="InfoOKey4">
+            <span class="close10" onclick="closeModal11()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy11">Купить</button>
+               <div id="errorMessage12">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy11');
+        var errorMessage2 = document.getElementById('errorMessage12');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="greenkey2.png" width="250px" height="200px">
+                <h2 class="positionLite">Кейс с рублями х5</h2>
+                <h3 class="PriceLite">149.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite"></p>
+                    
+                    
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">149.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn12() {
+    var modal = document.getElementById('OKey4');
+    modal.classList.add('show'); 
+    }
+    function closeModal11() {
+    var modal = document.getElementById('OKey4');
+    modal.classList.remove('show'); 
+    }
+     </script> 
+    <div class="border-tovar13">
+        <div class="button-13">
+            <button class="add-button13" id="OpenBtn13" onclick="OpenBtn13()">Купить</button>
+        </div>
+        <div class="image-tovar13">
+            <!-- <img class="image-unban" src="#" alt="unban" width="250px" height="200px"> -->
+            <div class="All-privilegia13">
+                    <h2 class="unban">РАЗБАН</h2>
+                    <div class="Price13">
+                        <h3 class="Price-13">99.00₽</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Ounban" class="Ounban">
+        <div class="InfoOunban">
+            <span class="close11" onclick="closeModal12()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy12">Купить</button>
+               <div id="errorMessage13">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy12');
+        var errorMessage2 = document.getElementById('errorMessage13');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="unban100.png" width="250px" height="200px">
+                <h2 class="positionLite">РАЗБАН</h2>
+                <h3 class="PriceLite">99.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite"></p>
+                    
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">99.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn13() {
+    var modal = document.getElementById('Ounban');
+    modal.classList.add('show'); 
+    }
+    function closeModal12() {
+    var modal = document.getElementById('Ounban');
+    modal.classList.remove('show'); 
+    }
+     </script> 
+    
+    <div class="border-tovar14">
+        <div class="button-14">
+            <button class="add-button14" id="OpenBtn14" onclick="OpenBtn14()">Купить</button>
+        </div>
+        <div class="image-tovar14">
+            <!-- <img class="image-unban" src="#" alt="unban" width="250px" height="200px"> -->
+            <div class="All-privilegia14">
+                    <h2 class="unmute">РАЗМУТ</h2>
+                    <div class="Price14">
+                        <h3 class="Price-14">49.00₽</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Ounmute" class="Ounmute">
+        <div class="InfoOunmute">
+            <span class="close12" onclick="closeModal13()">&times;</span>
+            <h2 class="formtext4">Для покупки товаров заполните форму</h2>
+            <div class="form4">
+                <input type="text" class="Nick4" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере">
+                <input type="text" class="Email4" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email">
+                <input type="text" class="Promo4" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                <label for="checkbox">
+                    <input type="checkbox" class="checkbox5" id="checkbox5">
+                </label>
+                <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+               <button class="Buy" id="Buy13">Купить</button>
+               <div id="errorMessage14">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+        var checkbox2 = document.getElementById('checkbox5');
+        var buyButton = document.getElementById('Buy13');
+        var errorMessage2 = document.getElementById('errorMessage14');
+
+        buyButton.addEventListener('click', function() {
+            if (!checkbox2.checked) {
+                errorMessage2.style.display = 'block';
+            } else {
+                errorMessage2.style.display = 'none';             
+            }
+        });
+    });
+            </script>
+            <h1 class="Platej">Оформление платежа</h1>
+                
+            <div class="Platejinfo">
+                <img class="ImgLite" src="unmute.png" width="250px" height="200px">
+                <h2 class="positionLite">РАЗМУТ</h2>
+                <h3 class="PriceLite">49.00₽</h3>
+            </div>
+            
+            <div class="PlatejinfoL">
+                <h4 class="InfoLite">
+                    <p class="PLite"></p>
+                    
+                </div>
+                <h1 class="Itog">ИТОГО:</h1>
+        <h1 class="Itogcost">49.00₽</h1>
+        <div class="warring">
+            <h4>Важно знать cохраните чек который будет у вас<br> на почте 
+                в случаи утери аккаунта вы можете доказать
+            что он ваш.
+            <i class="fa-solid fa-circle-exclamation"></i>
+        <a href="https://vk.com/swaygrief">Вк</a></h4>
+       
+        </div>
+            </div> 
+        </div>
+    </div>
+    <script>
+        function OpenBtn14() {
+    var modal = document.getElementById('Ounmute');
+    modal.classList.add('show'); 
+    }
+    function closeModal13() {
+    var modal = document.getElementById('Ounmute');
+    modal.classList.remove('show'); 
+    }
+     </script>                                  
+</body>
+</html>

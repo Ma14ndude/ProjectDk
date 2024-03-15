@@ -127,6 +127,7 @@ body, html {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     cursor: pointer;
+    
 }
 .SING-UP {
     display: inline-block;
@@ -139,6 +140,7 @@ body, html {
     font-style: normal;
     cursor: pointer;
     text-decoration: underline 2px yellow;
+    
 }
 .SING-IN:hover{
     text-decoration: underline 2px yellow;

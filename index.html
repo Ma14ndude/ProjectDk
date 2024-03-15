@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,30 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Icon_server.png" type="image/png">
     <link rel="stylesheet" href="style.css">
-    <title>SwayGrief</title>
-    <script src="https://cdn.jsdelivr.net/clipboard.js/2.0.8/clipboard.min.js" defer></script>
-    <script src="http://code.jquery.com/jquery-latest.min.js" defer></script>
-    
+    <title>SwayWorld</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="testworking.js"></script>
 </head>
 <body class="obsh">
-    <a href="https://misterlauncher.org/" class="mrl-vote-server" data-vote-id="62254" data-vote-type="server"><span id="mrl-vote-title"><img src="//misterlauncher.org/images/logo.png" alt="" /></span><span id="mrl-vote-counter"><u></u><i></i></span></a><script type="text/javascript" src="//misterlauncher.org/js/site/vote_widget.js"></script>
-    <h2 class="section1"><a href="#section2" class="section">Донат</a></h2>
-    <script src="js1.js" defer></script>
+    <a href="https://misterlauncher.org/" class="mrl-vote-server" data-vote-id="62254" data-vote-type="server"><span id="mrl-vote-title"><img src="//misterlauncher.org/images/logo.png" alt="LogoLauncher" /></span><span id="mrl-vote-counter"><u></u><i></i></span></a><script type="text/javascript" src="//misterlauncher.org/js/site/vote_widget.js"></script>
+   
+    
     <div class="background">
-        <img class="iconka" src="Icon_server.png" alt="SwayGrief" width="60px" height="60px"> 
+        <img class="iconka" src="iconka.png" alt="SwayGrief" width="60px" height="60px"> 
         <div class="text-SwayGrief">
-            <h2 class="SwayGrief">Sway<span class="Grief">G rief</span></h2>
+            <h2 class="SwayGrief">Sway<span class="Grief">World</span></h2>
                 <div class="container">
             <i class="fa-brands fa-vk" onclick="location.href='https://vk.com/swaygrief'"></i>
                 <i class="fa-brands fa-discord" onclick="location.href='https://discord.gg/jbeP59xS'"></i>
                     <i class="fa-brands fa-youtube" onclick="location.href='https://www.youtube.com/@SwayGrief'"></i>
                         <i class="fa-solid fa-circle-info" id="openModalBtn"></i>
                     </div>
+                    
                     <div class="outline-border">
-                        <img class="verstack" src="verstack.png" width="90px">
+                        <img class="verstack" src="verstacknew.png" width="220px">
                         <div class="online"></div>
                         <h2 class="slots" id="server-status">0/150</h2>
-
+                        
 <script>
  function updateServerStatus() {
     const serverIp = "45.93.200.10";
@@ -53,107 +54,156 @@
 
  
   setInterval(updateServerStatus, updateInterval);
-</script>
+</script>                
                         <h3 class="version">1.12.x-1.16.x</h3>   
-                        <h3 class="Nameborder">SwayGrief</h3>
-                        <p class="Ip" onclick="copyText()">mc.swaygrief.ru</p>
-                        <p class="Grief1">―Гриф 1.12.2</p>
+                        <h3 class="Nameborder">SwayWorld</h3>
+                        <p class="Ip" id="Ip3" onclick="copyText()">mc.swaygrief.ru</p>
+                        <p class="Grief1">―Гриф 1.16.5</p>
                         <span class="copied-message">Скопированно!</span>
-                        
+                        <button class="buttonGrief" id="myButton" onclick="location.href='Donate.html'">Donate</button>
                     </div>
+                    
+                    <script>
+                       const Ip3 = document.getElementById("Ip3");
+
+Ip3.addEventListener("mouseenter", () => {
+ Ip3.textContent = "Click";
+});
+Ip3.addEventListener("mouseleave", () => {
+Ip3.textContent = "mc.swaygrief.ru";
+});
+
+function copyText() {
+            var textToCopy = "mc.swaygrief.ru";
+
+            
+            var tempTextarea = document.createElement("textarea");
+            tempTextarea.value = textToCopy;
+
+           
+            document.body.appendChild(tempTextarea);
+
+         
+            tempTextarea.select();
+            tempTextarea.setSelectionRange(0, 99999);
+
+       
+            document.execCommand("copy");
+
+      
+            document.body.removeChild(tempTextarea);
+
+           
+            var copiedMessage = document.querySelector(".copied-message");
+            if (copiedMessage) {
+                copiedMessage.style.display = "inline-block";
+                setTimeout(function() {
+                    copiedMessage.style.display = "none";
+                }, 2000); 
+            }
+        }
+                    </script>
+                    
                     <div class="outline-border1">
-                        <img class="verstack1" src="verstack.png" width="90px">
+                        <img class="verstack1" src="tnt.png" width="190px">
                         <div class="online1"></div>
                         <h2 class="slots1">0/150</h2>
                         <h3 class="version1">1.16.5—1.20.4</h3>   
-                        <h3 class="Nameborder1">SwayGrief</h3>
-                        <p class="Ip1" onclick="copyText1()">mc.swaygrief.ru</p>
+                        <h3 class="Nameborder1">SwayWorld</h3>
+                        <p class="Ip1" id="Ip1" onclick="copyText1()">mc.swaygrief.ru</p>
                         <p class="Grief2">―Анархия 1.16.5</p>
                         <span class="copied-message1">Скопированно!</span>
-                        
                     </div>
+                    <script>
+                        const Ip1 = document.getElementById("Ip1");
+
+Ip1.addEventListener("mouseenter", () => {
+ Ip1.textContent = "Click";
+});
+Ip1.addEventListener("mouseleave", () => {
+Ip1.textContent = "mc.swaygrief.ru";
+});
+                      function copyText1() {
+            var textToCopy = "mc.swaygrief.ru";
+
+            
+            var tempTextarea = document.createElement("textarea");
+            tempTextarea.value = textToCopy;
+
+           
+            document.body.appendChild(tempTextarea);
+
+         
+            tempTextarea.select();
+            tempTextarea.setSelectionRange(0, 99999);
+
+       
+            document.execCommand("copy");
+
+      
+            document.body.removeChild(tempTextarea);
+
+           
+            var copiedMessage = document.querySelector(".copied-message1");
+            if (copiedMessage) {
+                copiedMessage.style.display = "inline-block";
+                setTimeout(function() {
+                    copiedMessage.style.display = "none";
+                }, 2000); 
+            }
+        }
+
+                    </script>
                     <div class="outline-border2">
-                        <img class="verstack2" src="verstack.png" width="90px">
+                        <img class="verstack2" src="Duel.png" width="140px">
                         <div class="online2"></div>
                         <h2 class="slots2" id="server-status">0/500</h2>
                         <h3 class="version2">1.12.2—1.20.4</h3>   
-                        <h3 class="Nameborder2">SwayGrief</h3>
-                        <p class="Ip2" onclick="copyText2()">mc.swaygrief.ru</p>
+                        <h3 class="Nameborder2">SwayWorld</h3>
+                        <p class="Ip2" id="Ip2" onclick="copyText2()">mc.swaygrief.ru</p>
                         <p class="Grief3">―Дуели</p>
                         <span class="copied-message2">Скопированно!</span>
-                        
                     </div>
-                    <div class="log-in" onmouseover="showTooltip()" onmouseout="hideTooltip()">
-                        <i class="fa-solid fa-right-to-bracket"></i>
-                        <div class="tooltip" id="tooltip">
-                            <span class="vhod" onclick="location.href='Log-in.html'">Вход</span>
-                            <br>
-                            <span class="registracia" onclick="location.href='Register1.html'">Регистрация</span>
-                        </div>
-                    </div>
-                    
-                    
                     <script>
-                        function copyText() {
-                            var textToCopy = document.querySelector('.Ip').innerText;
-                            var copiedMessage = document.querySelector('.copied-message');
-                
-                            var textarea = document.createElement('textarea');
-                            textarea.value = textToCopy;
-                            document.body.appendChild(textarea);
-                            textarea.select();
-                            document.execCommand('copy');
-                            document.body.removeChild(textarea);
-                
-                            
-                            copiedMessage.style.display = 'inline';
-                            setTimeout(function () {
-                                
-                                copiedMessage.style.display = 'none';
-                            }, 2000);
-                        }
+                        const Ip2 = document.getElementById("Ip2");
+
+Ip2.addEventListener("mouseenter", () => {
+ Ip2.textContent = "Click";
+});
+Ip2.addEventListener("mouseleave", () => {
+Ip2.textContent = "mc.swaygrief.ru";
+});
+                                      function copyText2() {
+            var textToCopy = "mc.swaygrief.ru";
+
+            
+            var tempTextarea = document.createElement("textarea");
+            tempTextarea.value = textToCopy;
+
+           
+            document.body.appendChild(tempTextarea);
+
+         
+            tempTextarea.select();
+            tempTextarea.setSelectionRange(0, 99999);
+
+       
+            document.execCommand("copy");
+
+      
+            document.body.removeChild(tempTextarea);
+
+           
+            var copiedMessage = document.querySelector(".copied-message2");
+            if (copiedMessage) {
+                copiedMessage.style.display = "inline-block";
+                setTimeout(function() {
+                    copiedMessage.style.display = "none";
+                }, 2000); 
+            }
+        }
                     </script>
-                    <script>
-                        function copyText1() {
-                            var textToCopy = document.querySelector('.Ip1').innerText;
-                            var copiedMessage = document.querySelector('.copied-message1');
-                
-                            var textarea = document.createElement('textarea');
-                            textarea.value = textToCopy;
-                            document.body.appendChild(textarea);
-                            textarea.select();
-                            document.execCommand('copy');
-                            document.body.removeChild(textarea);
-                
-                            
-                            copiedMessage.style.display = 'inline';
-                            setTimeout(function () {
-                                
-                                copiedMessage.style.display = 'none';
-                            }, 2000);
-                        }
-                    </script>
-                    <script>
-                        function copyText2() {
-                            var textToCopy = document.querySelector('.Ip2').innerText;
-                            var copiedMessage = document.querySelector('.copied-message2');
-                
-                            var textarea = document.createElement('textarea');
-                            textarea.value = textToCopy;
-                            document.body.appendChild(textarea);
-                            textarea.select();
-                            document.execCommand('copy');
-                            document.body.removeChild(textarea);
-                
-                            
-                            copiedMessage.style.display = 'inline';
-                            setTimeout(function () {
-                                
-                                copiedMessage.style.display = 'none';
-                            }, 2000);
-                        }
-                    </script>
-                
+                  
             <div id="myModal" class="modal">
                 <div class="modal-content">
                     <span class="close" onclick="closeModal()">&times;</span>
@@ -165,39 +215,17 @@
         </div>
     </div>
  </div>
- <div class="bordertown"></div>
- <div class="background-black">
- <div class="Tovar-name">
-    <h1>ТОВАРЫ</h1>
-    <h2 class="section2" id="section2"></h2>
-    <div class="border-tovar1">
-        <div class="button-1">
-            <button class="add-button" id="OpenBtn">Купить</button>
-        </div>
-        <div class="image-tovar1">
-            <img class="image-Lite" src="Lite.png" alt="Lite" width="250px" height="200px">
-            <div class="All-privilegia">
-                <h3 class="Privilegia1">Привилегии</h3>
-                <div class="Lite">
-                    <h2 class="Lite1">ЛАЙТ</h2>
-                    <div class="Price1">
-                        <h3 class="Price-1">15.00₽</h3>
-                        <div class="Skidka1">-40%</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
- <div id="myModalBtn" class="Litebuy">
-    <div class="buyLite">
-        <span class="closeLite" onclick="CloseModal()">&times;</span>
-            <div class="Lite-info">
-                <h1>Priveboti</h1>
-            </div>
-        </div>
-    </div>
+                    <script>
+                        const button = document.getElementById("myButton");
+
+                        button.addEventListener("mouseenter", () => {
+                         button.textContent = "Click";
+                        });
+                        button.addEventListener("mouseleave", () => {
+                        button.textContent = "Donate";
+                        });
+                    </script>
    
     <script>
         
@@ -218,28 +246,27 @@
         
         document.getElementById('openModalBtn').addEventListener('click', openModal);
         
-        function openBtn() {
-            document.getElementById('myModalBtn').style.display = 'block';
-        }
+        // function openBtn() {
+        //     document.getElementById('myModalBtn').style.display = 'block';
+        // }
         
-        function CloseModal() {
-            document.getElementById('myModalBtn').style.display = 'none';
-        }
+        // function CloseModal() {
+        //     document.getElementById('myModalBtn').style.display = 'none';
+        // }
         
-        document.getElementById('OpenBtn').addEventListener('click', openBtn);
+        // document.getElementById('OpenBtn').addEventListener('click', openBtn);
         </script>             
  <script src="https://kit.fontawesome.com/d9563bd57c.js" crossorigin="anonymous"></script>
 <script>    
-    document.addEventListener('DOMContentLoaded', function() {
+//     document.addEventListener('DOMContentLoaded', function() {
     
-    document.getElementById('OpenBtn').addEventListener('click', function() {
-        openBtn();
-
-        
-        history.replaceState({}, document.title, window.location.pathname);
-    });
-});
+//     document.getElementById('OpenBtn').addEventListener('click', function() {
+//         openBtn();
+//         history.replaceState({}, document.title, window.location.pathname);
+//     });
+// });
 </script>
+
 
 </body>
 </html>
