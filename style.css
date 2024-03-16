@@ -1497,12 +1497,47 @@ background: #3a0ca3;
 }
 @media (max-width:768px){
     .mrl-vote-server{
-        transform: scale(1.1);
-        left:
+        transform: scale(0.8);
+        left:100px;
       }
       .SwayGrief{
-    
+        left:-570px;
+        transform: scale(0.5);
       }
+      .container{
+        left:450px;
+        transform:scale(0.6)
+      }
+      .outline-border {
+        top: 36px;
+        left: -812px;
+        transform: scale(0.6);
+    }
+    .outline-border1 {
+        top: 148px;
+        transform: scale(0.6);
+        left: -812px;
+    }
+    .outline-border2 {
+        top: 260px;
+        transform: scale(0.6);
+        left: -812px;
+    }
+    .outline-border:hover {
+      
+        
+        transform: scale(0.68);
+    }
+    .outline-border1:hover{
+     
+        transform: scale(0.68);
+        
+    }
+    .outline-border2:hover {
+        
+        transform: scale(0.68);
+       
+    }
 }
 @media (max-width:568px){
     .mrl-vote-server{
@@ -1593,13 +1628,13 @@ background: #3a0ca3;
             transform: scale(0.74);
           }
           .modal-content{
-            width: 210px;
+            width: 220px;
         }
         .info-server{
             font-size: 20px;
         }
     }
-@media (max-height:500px){
+@media (max-height:380px){
     .mrl-vote-server{
         left:35px;
         top:0px;
@@ -1635,6 +1670,9 @@ background: #3a0ca3;
     }
     .outline-border1:hover{
         transform: scale(0.5);
+    }
+    .modal-content{
+        height: 210px;
     }
 }
  
