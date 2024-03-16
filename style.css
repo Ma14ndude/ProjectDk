@@ -1531,5 +1531,54 @@ background: #3a0ca3;
         left:-765px;
         transform: scale(0.88);
     }
-} 
+    .outline-border:hover{
+        transform: scale(0.92);
+      }
+      .outline-border1:hover{
+        transform: scale(0.92);
+      }
+      .outline-border2:hover{
+        transform: scale(0.92);
+      }
+    } 
+    @media (max-width:386px){
+        .mrl-vote-server{
+            transform: scale(0.7);
+            left:70px;
+        }
+        .SwayGrief{
+            top:0px;
+            transform: scale(0.38);
+            left:-920px;
+        }
+        .container{
+            top:190px;
+            left:10px;
+        }
+        .outline-border{
+            transform:scale(0.67);
+            left:-780px;
+            top: 220px;
+        }
+        .outline-border1{
+            transform:scale(0.67);
+            left:-780px;
+            top: 343px 
+        }
+        .outline-border2{
+            transform:scale(0.67);
+            left:-780px;
+            top: 466px;
+        }
+        .outline-border:hover{
+            transform: scale(0.74);
+          }
+          .outline-border1:hover{
+            transform: scale(0.74);
+          }
+          .outline-border2:hover{
+            transform: scale(0.74);
+          }
+    }
+
  
