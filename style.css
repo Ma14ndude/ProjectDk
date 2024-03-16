@@ -1541,6 +1541,19 @@ background: #3a0ca3;
         transform: scale(0.92);
       }
     } 
+    .modal-content{
+        width: 450px;
+    }
+    @media (max-width:490px){
+        .modal-content{
+            width: 370px;
+        }
+    }
+    @media (max-width:415px){
+        .modal-content{
+            width: 350px;
+        }
+    }
     @media (max-width:386px){
         .mrl-vote-server{
             transform: scale(0.7);
@@ -1579,8 +1592,14 @@ background: #3a0ca3;
           .outline-border2:hover{
             transform: scale(0.74);
           }
+          .modal-content{
+            width: 270px;
+        }
+        .info-server{
+            font-size: 23px;
+        }
     }
-@media (max-height:300px){
+@media (max-height:500px){
     .mrl-vote-server{
         left:35px;
         top:0px;
