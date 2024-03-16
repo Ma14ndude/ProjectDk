@@ -1432,37 +1432,37 @@ background: #3a0ca3;
         overflow-x: hidden;
     }
     .SwayGrief{
-        left:-600px;
+        left:-450px;
         transform: scale(0.55);
     }
     .container{
-        left: 350px;
-        top:300px;
-        transform: scale(0.8);
+        left: 660px;
+        top:10px;
+        transform: scale(0.7);
     }
     .outline-border{
-        top: 403px;
-        transform: scale(1);
-        left:-450px;
+        top: 103px;
+        transform: scale(0.9);
+        left:-760px;
     }
     .outline-border1{
-        top: 602px;
-        transform: scale(1);
-        left:-450px;
+        top: 275px;
+        transform: scale(0.9);
+        left:-760px;
     }
     .outline-border2{
-        top:800px;
-        transform: scale(1);
-        left:-450px;
+        top: 446px;
+        transform: scale(0.9);
+        left:-760px;
     }
     .outline-border:hover{
-        transform: scale(1.1);
+        transform: scale(0.95);
       }
       .outline-border1:hover{
-        transform: scale(1.1);
+        transform: scale(0.95);
       }
       .outline-border2:hover{
-        transform: scale(1.1);
+        transform: scale(0.95);
       }
       .mrl-vote-server{
         left:400px;
@@ -1580,5 +1580,42 @@ background: #3a0ca3;
             transform: scale(0.74);
           }
     }
-
+@media (max-height:300px){
+    .mrl-vote-server{
+        left:35px;
+        top:0px;
+        transform: scale(0.6);
+    }
+    .SwayGrief{
+        top:-44px;
+        transform: scale(0.4);
+    }
+    .outline-border {
+        top: 77px;
+        transform: scale(0.45);
+        left: -856px;
+    }
+    .outline-border:hover{
+        transform: scale(0.5);
+    }
+    .outline-border2 {
+        top: 78px;
+        transform: scale(0.45);
+        left: -395px;
+    }
+    .outline-border2:hover{
+        transform: scale(0.5);
+    }
+    .container{
+        top:0px;
+    }
+    .outline-border1 {
+        transform: scale(0.45);
+        left: -626px;
+        top: 77px;
+    }
+    .outline-border1:hover{
+        transform: scale(0.5);
+    }
+}
  
