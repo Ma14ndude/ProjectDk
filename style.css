@@ -1593,10 +1593,10 @@ background: #3a0ca3;
             transform: scale(0.74);
           }
           .modal-content{
-            width: 270px;
+            width: 210px;
         }
         .info-server{
-            font-size: 23px;
+            font-size: 20px;
         }
     }
 @media (max-height:500px){
