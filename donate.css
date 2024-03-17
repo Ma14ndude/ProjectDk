@@ -745,6 +745,28 @@ body, html {
         transform: scale(0.9);
     }
 }
+@media (max-width:968px){
+    .Grid {
+        display: grid;
+        grid-template-columns: repeat(3, 20em); 
+        grid-template-rows: repeat(5, 420px);
+        margin-left: -1em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14 {
+        transform: scale(0.8);
+    }
+}
+ @media (max-width:900px){
+    .Grid {
+        display: grid;
+        grid-template-columns: repeat(3, 18em); 
+        grid-template-rows: repeat(5, 380px);
+        margin-left: -2em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14 {
+        transform: scale(0.73);
+    }
+}
 @media (max-width:800px){
     .Grid {
         display: grid;
