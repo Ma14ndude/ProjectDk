@@ -779,3 +779,16 @@ body, html {
         
     }  
 }
+@media(max-width:390px){
+    .Grid{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2em;
+        margin-top: -15em; 
+        grid-template-rows: repeat(14, 440px);
+        margin-bottom: -20em;    
+    } 
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14 {
+        transform: scale(0.88);
+        
+    }  
+}
