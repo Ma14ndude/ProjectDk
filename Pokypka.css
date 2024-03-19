@@ -2175,16 +2175,27 @@ input[type="checkbox4"]:checked:after {
         width: 67800%;
     }
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.25);
+        transform: translate(-50%, -50%) scale(0.30);
+        
     }
 }
-@media(max-height:400px){
+@media(max-height:500px){
     .neakt{
-        top:-120em;
+        top:-100em;
         
     }
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.25);
+        transform: translate(-50%, -50%) scale(0.30);
     }
 }
+@media(max-height:569px){
+    .neakt{
+        top:-124em;
+        
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.33);
+    }
+}
+
 
