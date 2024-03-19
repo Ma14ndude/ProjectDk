@@ -1,0 +1,1976 @@
+.neakt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+.neakt.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+.LiteN {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+.LiteN>h1{
+    position: relative;
+    top:-60px;
+    left:20px;
+    cursor: default;
+}
+.close{
+    display:block;
+    position: absolute;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    left: 1192px;
+    top: -23px;
+    width: 30px;
+    height: 40px;
+    z-index: 1;
+}
+.SamLite>img{
+    width: 250px;
+    height: 200px;
+    cursor: default;
+}
+.SamLite {
+    width: 700px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.308);
+    position: absolute;
+    top: 106px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(0, 255, 179);
+    transition: 0.5s;
+}
+.SamLite>h2{
+    cursor: default;
+    position: relative;
+    left:270px;
+    top:-150px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+.Vozmojnost {
+    position: absolute;
+    background-color: rgba(224, 224, 199, 0.596);
+    transition: 0.5s;
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(224, 16, 1);
+    top: 382px;
+    cursor: default;
+}
+.warring {
+    position: relative;
+    left: 763px;
+    top: -57px;
+    width: 435px;
+    height: 130px;
+    background-color: #f5b759;
+    box-shadow: 0 0 50px rgb(255, 174, 0);
+    border-radius: 10px;
+    cursor: default;
+}
+.warring>h4{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 21px;
+    left: 36px;
+    font-size: 19px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    cursor: default;
+}
+.fa-solid.fa-circle-exclamation {
+    position: relative;
+    top: -68px;
+    left: 9px;
+    font-size: 19px;
+}
+.form{
+    display: inline-block;
+    position: absolute;
+    left: 787px;
+    top:350px;
+    background-color: rgba(217, 193, 226, 0.774);
+    height: 430px;
+    width: 430px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+.Nick {
+    position: relative;
+    border: 1px solid rgb(204, 72, 72);
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 25px;
+    left: -12px;
+    top: -4px;
+    transition: 0.5s;
+}
+.Nick:focus{
+    outline:none;
+    border-color: green !important;
+    transition: 0.5s; 
+}
+.Email {
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 10px 10px;
+    top: 36px;
+    font-size: 25px;
+    left: -12px;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px solid rgb(204, 72, 72);
+}
+.Email:focus{
+    outline:none;
+    transition: 0.5s; 
+    border-color: green !important; 
+}
+.Promo {
+    position: relative;
+    top: 250px;
+    border: none;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 25px;
+    left: 9px;
+    top: 75px;
+    border: 1px solid rgb(204, 72, 72);
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.Promo:focus{
+    outline:none;
+    transition: 0.5s; 
+    border-color: green !important; 
+}
+label {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 143px;
+    left: -360px;
+}
+.textforcheck {
+    display: inline-block;
+    position: relative;
+    top: 92px;
+    left: 17px;
+    font-size: 23px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    width: 395px;
+}
+.textforcheck>a {
+    color:red;
+    text-decoration: none;
+}
+input[type="checkbox"] {
+    position: relative;
+    padding: 10px;
+    appearance: none;
+    background-color: #e9cbcb;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+input[type="checkbox"]:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+    font-size: 18px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    color: rgb(0, 0, 0); 
+    transition: 0.3s;
+}
+input[type="checkbox"]:checked:after {
+    opacity: 1;
+    transition: 0.3s;
+}
+.form>h2{
+    font-size: 21px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    cursor: default;
+}
+.Itog {
+    display: inline-block;
+    position: relative;
+    left: 768px;
+    top: -59px;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    cursor: default;
+}
+.Itogsum {
+    display: inline-block;
+    position: relative;
+    left: 1050px;
+    top: -55px;
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    cursor: default;
+}
+.Vozmojnost{
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal; 
+}
+.Vozmojnost>.Can{
+    position: relative;
+    top:-10px;
+}
+.Vozmojnost>.Can1{
+    position: relative;
+    top:-24px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.Vozmojnost>.Dop{
+    position: relative;
+    top:-45px;
+}
+.Vozmojnost>.Dop1{
+    position: relative;
+    top:-60px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.3;
+}
+.Buy{
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+.Buy::after, .Buy::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   .Buy::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   .Buy:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   .Buy:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   .Buy:hover {
+    color: var(--color2);
+   }
+   .Buy:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+#errorMessage1{
+    display: none;
+    color:red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+.neakt1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+.neakt1.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+.LiteN1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+.LiteN1>h1{
+    position: relative;
+    top:-60px;
+    left:20px;
+}
+#errorMessage2{
+    display: none;
+    color:red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+.Buy1{
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+.Buy1::after, .Buy1::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   .Buy1::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   .Buy1:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   .Buy1:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   .Buy1:hover {
+    color: var(--color2);
+   }
+   .Buy1:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+input[type="checkbox1"] {
+    position: relative;
+    padding: 10px;
+    appearance: none;
+    background-color: #e9cbcb;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+ input[type="checkbox1"]:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+    font-size: 18px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    color: rgb(0, 0, 0); 
+    transition: 0.3s;
+}
+
+input[type="checkbox1"]:checked:after {
+    opacity: 1;
+    transition: 0.3s;
+}
+.neakt2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt2.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LiteN2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LiteN2 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage3 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy2 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy2::after,
+.Buy2::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy2::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy2:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy2:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy2:hover {
+    color: var(--color2);
+}
+
+.Buy2:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+
+input[type="checkbox2"] {
+    position: relative;
+    padding: 10px;
+    appearance: none;
+    background-color: #e9cbcb;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+input[type="checkbox2"]:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+    font-size: 18px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    color: rgb(0, 0, 0); 
+    transition: 0.3s;
+}
+
+input[type="checkbox2"]:checked:after {
+    opacity: 1;
+    transition: 0.3s;
+}
+.neakt3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt3.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LiteN3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LiteN3 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage4 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy3 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy3::after,
+.Buy3::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy3::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy3:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy3:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy3:hover {
+    color: var(--color2);
+}
+
+.Buy3:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+
+input[type="checkbox3"] {
+    position: relative;
+    padding: 10px;
+    appearance: none;
+    background-color: #e9cbcb;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+input[type="checkbox3"]:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+    font-size: 18px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    color: rgb(0, 0, 0); 
+    transition: 0.3s;
+}
+
+input[type="checkbox3"]:checked:after {
+    opacity: 1;
+    transition: 0.3s;
+}
+input[type="checkbox4"] {
+    position: relative;
+    padding: 10px;
+    appearance: none;
+    background-color: #e9cbcb;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+input[type="checkbox4"]:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+    font-size: 18px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    color: rgb(0, 0, 0); 
+    transition: 0.3s;
+}
+
+input[type="checkbox4"]:checked:after {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.neakt4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt4.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LiteN4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LiteN4 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage5 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy4 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy4::after,
+.Buy4::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy4::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy4:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy4:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy4:hover {
+    color: var(--color2);
+}
+
+.Buy4:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt5 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt5.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN5 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage6 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy5 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy5::after,
+.Buy5::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy5::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy5:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy5:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy5:hover {
+    color: var(--color2);
+}
+
+.Buy5:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt6.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN6 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage7 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy6 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy6::after,
+.Buy6::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy6::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy6:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy6:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy6:hover {
+    color: var(--color2);
+}
+
+.Buy6:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt8.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN8 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage9 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy8 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy8::after,
+.Buy8::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy8::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy8:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy8:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy8:hover {
+    color: var(--color2);
+}
+
+.Buy8:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+
+.neakt9 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt9.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN9 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN9 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage10 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy9 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy9::after,
+.Buy9::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy9::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy9:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy9:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy9:hover {
+    color: var(--color2);
+}
+
+.Buy9:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt10 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt10.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN10 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN10 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage11 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy10 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy10::after,
+.Buy10::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy10::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy10:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy10:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy10:hover {
+    color: var(--color2);
+}
+
+.Buy10:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt11 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt11.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN11 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN11 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage12 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy11 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy11::after,
+.Buy11::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy11::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy11:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy11:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy11:hover {
+    color: var(--color2);
+}
+
+.Buy11:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt12 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt12.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN12 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN12 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage12 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy12 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy12::after,
+.Buy12::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy12::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy12:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy12:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy12:hover {
+    color: var(--color2);
+}
+
+.Buy12:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt13 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt13.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN13 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN13 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage13 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy13 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy13::after,
+.Buy13::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy13::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy13:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy13:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy13:hover {
+    color: var(--color2);
+}
+
+.Buy13:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+.neakt14 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt14.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN14 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN14 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage14 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy14 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy14::after,
+.Buy14::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy14::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy14:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy14:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy14:hover {
+    color: var(--color2);
+}
+
+.Buy14:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+
+.Vozmojnost>.Dop2{
+    position: relative;
+    top:-65px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.3;
+}
+.Vozmojnost>.Dop3{
+    position: relative;
+    top:-50px;
+}
+.Vozmojnost>.Dop4{
+    position: relative;
+    top:-70px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+.Vozmojnost>.Dop5{
+    position: relative;
+    top:-50px;
+}
+.Vozmojnost>.Dop6{
+    position: relative;
+    top:-70px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+}
+.Vozmojnost>.Dop7{
+    position: relative;
+    top:-45px;
+
+}
+.Vozmojnost>.Can3{
+    font-size: 17px;
+    position: relative;
+    top:-30px;
+}
+.Vozmojnost>.Can4{
+    font-size: 17px;
+    position: relative;
+    top:-30px;
+}
+.Vozmojnost>.Koman{
+    position: relative;
+    top:-15px;
+}
+.Vozmojnost>.Pomoch{
+    position: relative;
+    top:-15px;
+}
+.Vozmojnost>.Can5{
+    position: relative;
+    top:-30px;
+}
+.Vozmojnost>.Dop8{
+    position: relative;
+    font-size: 16px;
+    top:-60px;
+}
+.Vozmojnost>.Can6{
+    position: relative;
+    top:-20px;
+    font-size: 16px;
+    left:-150px;
+}
+.Vozmojnost>.Dop9{
+    position: relative;
+    font-size: 17px;
+    top:-240px;
+    left:190px;
+   
+}
+.Vozmojnost>.Anarch{
+    position: relative;
+    top:-15px;
+}
+.Vozmojnost>.Dop10{
+    position: relative;
+    
+    top:-60px;
+}
+.Vozmojnost>.Dop11{
+    position: relative;
+    font-size: 17px;
+    top:-270px;
+    left:190px;
+    line-height: 1.5;
+}
+.Vozmojnost>.Can7{
+    position: relative;
+    top:-10px;
+    font-size: 17px;
+    left:-150px;
+}
+@media (max-width:1820px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    .neakt{
+        
+    }
+}
