@@ -6,6 +6,8 @@
     <link rel="shortcut icon" href="Icon_server.png" type="image/png">
     <title>Donate-SwayGrief</title>
     <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="Pokypka.css">
+    <script src="OpenDonate.js"></script>
     <script src="https://kit.fontawesome.com/d9563bd57c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,7 +20,6 @@
             <div class="image-tovar">
                 <img class="image" src="Lite.png" alt="Lite">
                 <div class="All-privilegia">
-                    
                         <h2 class="Lite">ЭЛИТА</h2>
                         <div class="Price">
                             <h3 class="Price">29.00₽</h3>
@@ -27,10 +28,58 @@
                     </div>
                 </div>
             </div>
-        
+            <div class="neakt" id="neakt">
+                <div class="LiteN" id="LiteN">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Lite.png">
+                        <h2>ЭЛИТА</h2>
+                        <h2>29.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ЭЛИТА</h2>
+                      
+                        <h4 class="Can1">
+                        ⭔Получить набор Элита-/kit<br>
+                        ⭔Получить зарплату - /salary<br>
+                        ⭔получить доп.награду - /reward<br>
+                        ⭔сменить позу: сидеть - /gsi<br>
+                        ⭔Виртуальный ткацкий станок /loom<br></h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop1">
+                        ▪Валюта за убийства мобов: x1.1<br>
+                        ▪Слотов на аукцеоне - 6<br>
+                        ▪Доступных точек дома - 2<br>
+                        ▪Доступно 3 региона<br>
+                        ▪Префикс Элита в чате<br>
+                        ▪Префикс Элита в табе</h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">29.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать cохраните чек который будет у вас<br>
+                            на почте в случаи утери аккаунта вы можете<br> доказать что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере" required>
+                        <input type="text" class="Email" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email" required>
+                        <input type="text" class="Promo" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox">
+                            <input type="checkbox" class="checkbox" id="checkbox">
+                        </label>
+                        <label for="checkbox" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage1">поставьте галочку и заполните поля</div>
+                    <button class="Buy" id="Buy">Купить</button>
+                </div>
+            </div>
+            
         <div class="border-tovar1">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn1()">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Ricar.png" alt="Lite">
@@ -44,10 +93,59 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt1" id="neakt1">
+                <div class="LiteN1" id="LiteN1">
+                    <span class="close" onclick="closeModal1()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Ricar.png">
+                        <h2>УЛЬТРА</h2>
+                        <h2>49.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>УЛЬТРА</h2>
+                        
+                        <h4 class="Can1">
+                        ⭔Получить набор Ультра-/kit<br>
+                        ⭔Получить зарплату-/salary<br>
+                        ⭔Покончить жизнь самоубийством - /suicide<br>
+                        ⭔Стол картографа - /cartographytable<br>
+                        ⭔Получить голову игрока - /head<br></h4>
+                        <h3 class="Dop3">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop4">
+                        ▪Валюта за убийства мобов: x1.2<br>
+                        ▪Возможность писать цветным текстом &<br>
+                        ▪Слотов на аукцеоне - 7<br>
+                        ▪Доступных точек дома - 2<br>
+                        ▪Доступно 3 региона<br>
+                        ▪Префикс Ультра в чате<br>
+                        ▪Префикс Ультра в табе</h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">49.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать cохраните чек который будет у вас<br>
+                            на почте в случаи утери аккаунта вы можете<br> доказать что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick1" autocomplete="off" placeholder="Ник на сервере" required>
+                        <input type="text" class="Email" name="Email" id="Email1" autocomplete="off" placeholder="Ваш Email" required>
+                        <input type="text" class="Promo" name="Promo" id="Promo1" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox1">
+                            <input type="checkbox" class="checkbox" id="checkbox1">
+                        </label>
+                        <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage2">поставьте галочку и заполните поля </div>
+                    <button class="Buy1" id="Buy1">Купить</button>
+                </div>
+            </div>
         
         <div class="border-tovar2">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn2()">Купить</button>
             </div>
             <div class="image-tovar1">
                 <img class="image" src="Paladine.png" alt="Lite">
@@ -61,10 +159,61 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt2" id="neakt2">
+                <div class="LiteN2" id="LiteN2">
+                    <span class="close" onclick="closeModal2()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Paladine.png">
+                        <h2>ЛОРД</h2>
+                        <h2>79.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ЛОРД</h2>
+                       
+                        <h4 class="Can1">
+                            ⭔Получить набор Лорд-/kit<br>
+                            ⭔Получить зарплату - /salary<br>
+                            ⭔Телепортация вверх - /top<br>
+                            ⭔Надеть блок на голову - /hat<br>
+                            ⭔Узнать высоту над уровнем моря /depth<br>
+                            ⭔Виртуальный камнерез /stonecutter<br>
+                        </h4>
+                        <h3 class="Dop7">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop2">
+                            ▪Валюта за убийства мобов: x1.1<br>
+                            ▪Слотов на аукцеоне - 6<br>
+                            ▪Доступных точек дома - 2<br>
+                            ▪Доступно 3 региона<br>
+                            ▪Префикс Элита в чате<br>
+                            ▪Префикс Элита в табе
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">79.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать cохраните чек который будет у вас<br>
+                            на почте в случаи утери аккаунта вы можете<br> доказать что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick2" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email2" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo2" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox2">
+                            <input type="checkbox" class="checkbox" id="checkbox2">
+                        </label>
+                        <label for="checkbox2" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage3">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy2" id="Buy2">Купить</button>
+                </div>
+            </div>
        
         <div class="border-tovar3">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn3()">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Dragonneback.png" alt="Lite">
@@ -78,10 +227,61 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt3" id="neakt3">
+                <div class="LiteN3" id="LiteN3">
+                    <span class="close" onclick="closeModal3()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Dragonneback.png">
+                        <h2>БАРОН</h2>
+                        <h2>149.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>БАРОН</h2>
+                       
+                        <h4 class="Can1">
+                            ⭔Получить набор Барон-/kit<br>
+                            ⭔Получить зарплату - /salary<br>
+                            ⭔Очистить инвентарь - /cmi clear<br>
+                            ⭔Восстановить голод - /feed<br>
+                            ⭔Дальний телепорт - /rtp<br>
+                            ⭔Возможность редактирования книг - /book<br>
+                        </h4>
+                        <h3 class="Dop5">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop6">
+                            ▪Валюта за убийства мобов: x1.4<br>
+                            ▪Слотов на аукционе - 9<br>
+                            ▪Доступных точек дома - 2<br>
+                            ▪Доступно 4 региона<br>
+                            ▪Префикс Барон в чате<br>
+                            ▪Префикс Барон в табе
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">149.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick3" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email3" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo3" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox3">
+                            <input type="checkbox" class="checkbox" id="checkbox3">
+                        </label>
+                        <label for="checkbox3" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage4">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy3" id="Buy3">Купить</button>
+                </div>
+            </div>
        
         <div class="border-tovar4">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn4()">Купить</button>
             </div>
             <div class="image-tovar4">
                 <img class="image" src="backlegend1.png" alt="Lite">
@@ -95,10 +295,63 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt4" id="neakt4">
+                <div class="LiteN4" id="LiteN4">
+                    <span class="close" onclick="closeModal4()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="backlegend1.png">
+                        <h2>КОМАНДИР</h2>
+                        <h2>229.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2 class="Koman">КОМАНДИР</h2>
+                        
+                        <h4 class="Can4">
+                            ⭔Получить набор Командир-/kit<br>
+                            ⭔Получить зарплату - /salary<br>
+                            ⭔Вернуться на место смерти - /back<br>
+                            ⭔Открыть Эндер Сундук - /ender<br>
+                            ⭔Открыть ротативный Верстак - /workbench<br>
+                            ⭔Доступ к чужому инвентарю - /invsee<br>
+                            ⭔Найти игрока - /near<br>
+                            ⭔Выдать предупреждение игроку - /warn<br>
+                        </h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop1">
+                            ▪Валюта за убийства мобов: x1.5<br>
+                            ▪Слотов на аукционе - 10<br>
+                            ▪Доступных точек дома - 3<br>
+                            ▪Доступно 5 регионов<br>
+                            ▪Префикс Командир в чате<br>
+                            ▪Префикс Командир в табе<br>
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">229.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick4" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email4" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo4" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox4">
+                            <input type="checkbox" class="checkbox" id="checkbox4">
+                        </label>
+                        <label for="checkbox4" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage5">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy4" id="Buy4">Купить</button>
+                </div>
+            </div>
         
         <div class="border-tovar5">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn5()">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Imperator.png" alt="Lite">
@@ -112,10 +365,63 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt5" id="neakt5">
+                <div class="LineN5" id="LineN5">
+                    <span class="close" onclick="closeModal5()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Imperator.png">
+                        <h2>ПОМОЩНИК</h2>
+                        <h2>439.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2 class="Pomoch">ПОМОЩНИК</h2>
+                        <h4 class="Can5">
+                            ⭔Получить набор Помощник -/kit<br>
+                            ⭔Получить зарплату - /salar<br>
+                            ⭔Написать в чат объявления - /bc<br>
+                            ⭔Потушить себя командой - /ext <br>
+                            ⭔Отключить телепортации - /tptoggle<br>
+                            ⭔Покормить игрока - /feed(Ник) <br>
+                            ⭔Вылечить игрока - /heal(Ник)<br>
+                            ⭔Замутить игрока - /mute(Ник)<br>
+                            ⭔Сменить псевдоним - /nick
+                        </h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop8">
+                            ▪Валюта за убийства мобов: x1.6<br>
+                            ▪Слотов на аукционе - 11<br>
+                            ▪Доступных точек дома - 3<br>
+                            ▪Доступно 6 региона<br>
+                            ▪Префикс Помощник в чате<br>
+                            ▪Префикс Помощник в табе<br>
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">439.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick5" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email5" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo5" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox5">
+                            <input type="checkbox" class="checkbox" id="checkbox5">
+                        </label>
+                        <label for="checkbox5" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage6">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy5" id="Buy5">Купить</button>
+                </div>
+            </div>
       
         <div class="border-tovar6">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn6()">Купить</button>
             </div>
             <div class="image-tovar7">
                 <img class="image" src="Rolecks.png" alt="Lite">
@@ -129,10 +435,67 @@
                     </div>
                 </div>
             </div>
-      
+            <div class="neakt6" id="neakt6">
+                <div class="LineN6" id="LineN6">
+                    <span class="close" onclick="closeModal6()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Rolecks.png">
+                        <h2>АНАРХИСТ</h2>
+                        <h2>799.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2 class="Anarch">АНАРХИСТ</h2>
+                     
+                        <h4 class="Can6">
+                            ⭔Получить набор Анархист-/kit<br>
+                            ⭔Получить зарплату - /salary<br>
+                            ⭔Установить личное время - /ptime<br>
+                            ⭔Установить погоду - /weather<br>
+                            ⭔Телепортация к игрокам - /rtp<br>
+                            ⭔Размутить игрока - /unmute<br>
+                            ⭔Ударить молнией - /lightning<br>
+                            ⭔Улучить снаряжение - /smithingtable<br>
+                            ⭔Скрыть сообщения игрока в чате - /ignote<br>
+                        </h4>
+                       
+                        <h4 class="Dop9">
+                            ▪Писать в чате зачеркнутый текст &m<br>
+                            ▪Писать в чате RGB цветами &#ABCDEF<br>
+                            ▪Валюта за убийства мобов: x1.7<br>
+                            ▪Слотов на аукционе - 12<br>
+                            ▪Доступных точек дома - 3<br>
+                            ▪Доступно 7 регионов<br>
+                            ▪Префикс Анархист в чате<br>
+                            ▪Префикс Анархист в табе<br>
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">799.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick6" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email6" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo6" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox6">
+                            <input type="checkbox" class="checkbox" id="checkbox6">
+                        </label>
+                        <label for="checkbox6" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage7">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy6" id="Buy6">Купить</button>
+                </div>
+            </div>
+            
+            
         <div class="border-tovar8">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn8()">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Toiner.png" alt="Lite">
@@ -146,10 +509,68 @@
                     </div>
                 </div>
             </div>
-        
+            <div class="neakt8" id="neakt8">
+                <div class="LineN8" id="LineN8">
+                    <span class="close" onclick="closeModal8()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Toiner.png">
+                        <h2>ХЕЛПЕР</h2>
+                        <h2>2999.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ХЕЛПЕР</h2>
+                        
+                        <h4 class="Can7">
+                            ⭔Получить набор Хелпер -/kit<br>
+                            ⭔Получить зарплату - /salary<br>
+                            ⭔Телепортация на блок взгляда - /jump<br>
+                            ⭔Установить режим "Aфк" - /afk<br>
+                            ⭔Забанить игрока - /ban<br>
+                            ⭔Снять варн с игрока - /unwarn<br>
+                            ⭔История наказаний игрока - /history<br>
+                            ⭔Кикнуть нарушителя с сервера - /kick<br>
+                            ⭔Установить точку варпа - /setwarp(Название)<br>
+                            ⭔Удалить варп - /delwarp(Название)<br>
+                            ⭔Починить вещь в руке - /repair<br>
+                        </h4>
+                       
+                        <h4 class="Dop11">
+                            ▪Валюта за убийства мобов: x1.8<br>
+                            ▪Уменьшеная задержка на ВСЕ команды<br>
+                            ▪Вы можете заходить на полный сервер<br>
+                            ▪Доступных точек дома - 4<br>
+                            ▪Слотов на аукионе - 13<br>
+                            ▪Доступно 8 региона<br>
+                            ▪Префикс ХЕЛПЕР в чате<br>
+                            ▪Префикс ХЕЛПЕР в табе<br>
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">2999.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick8" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email8" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo8" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox8">
+                            <input type="checkbox" class="checkbox" id="checkbox8">
+                        </label>
+                        <label for="checkbox8" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage9">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy8" id="Buy8">Купить</button>
+                </div>
+            </div>
+            
         <div class="border-tovar9">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn8()">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="redkey1.png" alt="Lite">
@@ -163,10 +584,60 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt9" id="neakt9">
+                <div class="LineN9" id="LineN9">
+                    <span class="close" onclick="closeModal9()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Lite.png">
+                        <h2>БАРОН</h2>
+                        <h2>293.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ЭЛИТА</h2>
+                       
+                        <h4 class="Can1">
+                            ⭔Получить набор Элита-/ki<br>
+                            ⭔Получить зарплату - /salar<br>
+                            ⭔Получить доп.награду - /reward<br>
+                            ⭔Сменить позу: сидеть - /gsi<br>
+                            ⭔Виртуальный ткацкий станок /loo<br>
+                        </h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop1">
+                            ▪Валюта за убийства мобов: x1.1<br>
+                            ▪Слотов на аукционе - 6<br>
+                            ▪Доступных точек дома - 2<br>
+                            ▪Доступно 3 региона<br>
+                            ▪Префикс Элита в чате<br>
+                            ▪Префикс Элита в табе
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">29.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick9" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email9" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo9" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox9">
+                            <input type="checkbox" class="checkbox" id="checkbox9">
+                        </label>
+                        <label for="checkbox9" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage10">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy9" id="Buy9">Купить</button>
+                </div>
+            </div>
        
         <div class="border-tovar10">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn9()">Купить</button>
             </div>
             <div class="image-tovar10">
                 <img class="image" src="greenkey2.png" alt="Lite" >
@@ -180,10 +651,59 @@
                     </div>
                 </div>
             </div>
-       
+            <div class="neakt10" id="neakt10">
+                <div class="LineN10" id="LineN10">
+                    <span class="close" onclick="closeModal10()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Lite.png">
+                        <h2>БАРОН</h2>
+                        <h2>293.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ЭЛИТА</h2>
+                       
+                        <h4 class="Can1">
+                            ⭔Получить набор Элита-/ki<br>
+                            ⭔Получить зарплату - /salar<br>
+                            ⭔получить доп.награду - /reward<br>
+                            ⭔сменить позу: сидеть - /gsi<br>
+                            ⭔Виртуальный ткацкий станок /loo<br>
+                        </h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop1">
+                            ▪Валюта за убийства мобов: x1.1<br>
+                            ▪Слотов на аукционе - 6<br>
+                            ▪Доступных точек дома - 2<br>
+                            ▪Доступно 3 региона<br>
+                            ▪Префикс Элита в чате<br>
+                            ▪Префикс Элита в табе
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">29.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick10" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email10" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo10" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox10">
+                            <input type="checkbox" class="checkbox" id="checkbox10">
+                        </label>
+                        <label for="checkbox10" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage11">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy10" id="Buy10">Купить</button>
+                </div>
+            </div>
         <div class="border-tovar11">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn10()">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="key3.png" alt="Lite" width="250px" height="200px">
@@ -197,10 +717,59 @@
                     </div>
                 </div>
             </div>
-       
+            <div class="neakt11" id="neakt11">
+                <div class="LineN11" id="LineN11">
+                    <span class="close" onclick="closeModal11()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Lite.png">
+                        <h2>БАРОН</h2>
+                        <h2>293.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ЭЛИТА</h2>
+                      
+                        <h4 class="Can1">
+                            ⭔Получить набор Элита-/ki<br>
+                            ⭔Получить зарплату - /salar<br>
+                            ⭔получить доп.награду - /reward<br>
+                            ⭔сменить позу: сидеть - /gsi<br>
+                            ⭔Виртуальный ткацкий станок /loo<br>
+                        </h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop1">
+                            ▪Валюта за убийства мобов: x1.1<br>
+                            ▪Слотов на аукционе - 6<br>
+                            ▪Доступных точек дома - 2<br>
+                            ▪Доступно 3 региона<br>
+                            ▪Префикс Элита в чате<br>
+                            ▪Префикс Элита в табе
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">29.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick11" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email11" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo11" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox11">
+                            <input type="checkbox" class="checkbox" id="checkbox11">
+                        </label>
+                        <label for="checkbox11" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage12">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy11" id="Buy11">Купить</button>
+                </div>
+            </div>
         <div class="border-tovar12">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn11()">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="purplekey.png" alt="Lite" width="250px" height="200px">
@@ -214,10 +783,60 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt12" id="neakt12">
+                <div class="LineN12" id="LineN12">
+                    <span class="close" onclick="closeModal12()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Lite.png">
+                        <h2>БАРОН</h2>
+                        <h2>293.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ЭЛИТА</h2>
+                     
+                        <h4 class="Can1">
+                            ⭔Получить набор Элита-/ki<br>
+                            ⭔Получить зарплату - /salar<br>
+                            ⭔получить доп.награду - /reward<br>
+                            ⭔сменить позу: сидеть - /gsi<br>
+                            ⭔Виртуальный ткацкий станок /loo<br>
+                        </h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop1">
+                            ▪Валюта за убийства мобов: x1.1<br>
+                            ▪Слотов на аукционе - 6<br>
+                            ▪Доступных точек дома - 2<br>
+                            ▪Доступно 3 региона<br>
+                            ▪Префикс Элита в чате<br>
+                            ▪Префикс Элита в табе
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">29.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick12" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email12" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo12" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox12">
+                            <input type="checkbox" class="checkbox" id="checkbox12">
+                        </label>
+                        <label for="checkbox12" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage12">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy12" id="Buy12">Купить</button>
+                </div>
+            </div>
       
         <div class="border-tovar13">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn13()">Купить</button>
             </div>
             <div class="image-tovar">
                 <div class="All-privilegia">
@@ -230,10 +849,60 @@
                     </div>
                 </div>
             </div>
+            <div class="neakt13" id="neakt13">
+                <div class="LineN13" id="LineN13">
+                    <span class="close" onclick="closeModal13()">&times;</span>
+                    <h1>Оформление платежа</h1>
+                    <div class="SamLite">
+                        <img src="Lite.png">
+                        <h2>БАРОН</h2>
+                        <h2>293.00₽</h2>
+                    </div>
+                    <div class="Vozmojnost">
+                        <h2>ЭЛИТА</h2>
+                      
+                        <h4 class="Can1">
+                            ⭔Получить набор Элита-/ki<br>
+                            ⭔Получить зарплату - /salar<br>
+                            ⭔получить доп.награду - /reward<br>
+                            ⭔сменить позу: сидеть - /gsi<br>
+                            ⭔Виртуальный ткацкий станок /loo<br>
+                        </h4>
+                        <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                        <h4 class="Dop1">
+                            ▪Валюта за убийства мобов: x1.1<br>
+                            ▪Слотов на аукционе - 6<br>
+                            ▪Доступных точек дома - 2<br>
+                            ▪Доступно 3 региона<br>
+                            ▪Префикс Элита в чате<br>
+                            ▪Префикс Элита в табе
+                        </h4>
+                    </div>
+                    <h4 class="Itog">ИТОГО:</h4>
+                    <h4 class="Itogsum">29.00₽</h4>
+                    <div class="warring">
+                        <h4>Важно знать, сохраните чек, который будет у вас<br>
+                            на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+                    <div class="form">
+                        <h2>Для покупки товаров заполните форму</h2>
+                        <input type="text" class="Nick" name="Nick" id="Nick13" autocomplete="off" placeholder="Ник на сервере">
+                        <input type="text" class="Email" name="Email" id="Email13" autocomplete="off" placeholder="Ваш Email">
+                        <input type="text" class="Promo" name="Promo" id="Promo13" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox13">
+                            <input type="checkbox" class="checkbox" id="checkbox13">
+                        </label>
+                        <label for="checkbox13" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    </div>
+                    <div id="errorMessage13">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                    <button class="Buy13" id="Buy13">Купить</button>
+                </div>
+            </div>
       
                <div class="border-tovar14">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" onclick="OpenBtn14()">Купить</button>
             </div>
             <div class="image-tovar">
                
@@ -248,7 +917,56 @@
                 </div>
             </div>
         </div>
-    
+        <div class="neakt14" id="neakt14">
+            <div class="LineN14" id="LineN14">
+                <span class="close" onclick="closeModal14()">&times;</span>
+                <h1>Оформление платежа</h1>
+                <div class="SamLite">
+                    <img src="Lite.png">
+                    <h2>БАРОН</h2>
+                    <h2>293.00₽</h2>
+                </div>
+                <div class="Vozmojnost">
+                    <h2>ЭЛИТА</h2>
+                    
+                    <h4 class="Can1">
+                        ⭔Получить набор Элита-/ki<br>
+                        ⭔Получить зарплату - /salar<br>
+                        ⭔получить доп.награду - /reward<br>
+                        ⭔сменить позу: сидеть - /gsi<br>
+                        ⭔Виртуальный ткацкий станок /loo<br>
+                    </h4>
+                    <h3 class="Dop">⚝ДОПОЛНИТЕЛЬНО:</h3>
+                    <h4 class="Dop1">
+                        ▪Валюта за убийства мобов: x1.1<br>
+                        ▪Слотов на аукционе - 6<br>
+                        ▪Доступных точек дома - 2<br>
+                        ▪Доступно 3 региона<br>
+                        ▪Префикс Элита в чате<br>
+                        ▪Префикс Элита в табе
+                    </h4>
+                </div>
+                <h4 class="Itog">ИТОГО:</h4>
+                <h4 class="Itogsum">29.00₽</h4>
+                <div class="warring">
+                    <h4>Важно знать, сохраните чек, который будет у вас<br>
+                        на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="#">Вк</a></h4>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                </div>
+                <div class="form">
+                    <h2>Для покупки товаров заполните форму</h2>
+                    <input type="text" class="Nick" name="Nick" id="Nick14" autocomplete="off" placeholder="Ник на сервере">
+                    <input type="text" class="Email" name="Email" id="Email14" autocomplete="off" placeholder="Ваш Email">
+                    <input type="text" class="Promo" name="Promo" id="Promo14" autocomplete="off" placeholder="Промокод, если есть">
+                    <label for="checkbox14">
+                        <input type="checkbox" class="checkbox" id="checkbox14">
+                    </label>
+                    <label for="checkbox14" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                </div>
+                <div id="errorMessage14">Пожалуйста, поставьте галочку перед тем, как купить!</div>
+                <button class="Buy14" id="Buy14">Купить</button>
+            </div>
+        </div>
                                   
 </body>
 </html>
