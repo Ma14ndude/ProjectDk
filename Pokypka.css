@@ -1,7 +1,7 @@
 .neakt {
     position: fixed;
     top: 0;
-    left: 0;
+    left:0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -13,7 +13,8 @@
 .neakt.show {
     opacity: 1; 
     visibility: visible; 
-    transition-delay: 0s; 
+    transition-delay: 0s;
+    
 }
 .LiteN {
     position: absolute;
@@ -1966,11 +1967,224 @@ input[type="checkbox4"]:checked:after {
     font-size: 17px;
     left:-150px;
 }
+
 @media (max-width:1820px) {
     .LiteN{
         transform: translate(-50%, -50%) scale(0.9);
     }
-    .neakt{
-        
+   
+}
+@media (max-width:1820px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+   
+}
+@media (max-width:1670px){
+    body,html .neakt.show{
+        overflow: hidden;
+    }
+    .neakt {
+        position: fixed;
+        top: -55em;
+        left:-5em;
+        width: 110%;
+        height: 135%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        opacity: 0; 
+        visibility: hidden; 
+        transition: opacity 0.8s ease, visibility 0s 0.5s;
+    }
+    .neakt.show {
+        opacity: 1; 
+        visibility: visible; 
+        transition-delay: 0s;
+    }
+ 
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.8);
     }
 }
+@media (max-width:1360px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.7);
+    }
+    .neakt {
+        left:-3em;
+        top: -53em;
+    }
+   
+}
+@media (max-width:1237px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.66);
+    }
+    .neakt {
+        left:-7.5em;
+        top: -88em;
+        width: 120%;
+    }
+}
+@media (max-width:1088px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.57);
+    }
+    .neakt{
+        top:-90em;
+    }
+   
+}
+@media (max-width:1024px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.57);
+    }
+    .neakt{
+        top:-81em;
+        left:-5em;
+    }
+   
+}
+@media (max-width:968px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.49);
+    }
+    .neakt{
+        top:-82em;
+       left:-2em
+    }
+   
+}
+@media (max-width:900px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.49);
+    }
+    .neakt{
+        top:-70em;
+       left:-2em
+    }
+   
+}
+@media (max-width:800px) {
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.49);
+    }
+    .neakt{
+        top:-116em;
+       left:-5em
+    }
+    input[type="checkbox"] {
+        position: relative;
+        left:-5px;
+    }
+   
+}
+@media (max-width:568px){
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.45);
+    }
+    .neakt{
+        top:-95em;
+        left:-1em;
+        width: 255%;
+    }
+}
+@media (max-width:544px){
+    .neakt{
+        top:-95em;
+        left:-1em;
+        width: 300%;
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.40);
+    }
+}
+@media(max-width:480px){
+    .neakt{
+        width: 800%;
+        left:-10em;
+        top:-255em;
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.35);
+    }
+}
+@media(max-width:476px){
+    .neakt{
+        left:-16em;
+        width: 1200%;
+    }
+}
+@media(max-width:468px){
+    .neakt{
+        left:-14em;
+        width: 1200%;
+    }
+}
+@media(max-width:460px){
+    .neakt{
+        left:-12em;
+        width: 1200%;
+    }
+}
+@media(max-width:454px){
+    .neakt{
+        left:-9em;
+        width: 1200%;
+    }
+}
+@media(max-width:390px){
+    .neakt{
+        left:-9em;
+        width: 1800%;
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.30);
+    }
+}
+@media(max-width:375px){
+    .neakt{
+        left:-11em;
+        width: 3000%;
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.3);
+    }
+}
+@media(max-width:360px){
+    .neakt{
+        left:-11em;
+        width: 8800%;
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.25);
+    }
+}
+@media(max-width:355px){
+    .neakt{
+        left:-11em;
+        width: 23800%;
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.25);
+    }
+}
+@media(max-width:353px){
+    .neakt{
+        left:-11em;
+        width: 67800%;
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.25);
+    }
+}
+@media(max-height:400px){
+    .neakt{
+        top:-120em;
+        
+    }
+    .LiteN{
+        transform: translate(-50%, -50%) scale(0.25);
+    }
+}
+

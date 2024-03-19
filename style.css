@@ -291,7 +291,7 @@ background: #3a0ca3;
     width: 500px;
     height: 180px;
     background-image: linear-gradient(to top, #000000 0%, #000000 100%);
-    top: -185px;
+    top: 24px;
     left:-700px;
     transition: transform 1s;
     z-index: 0;
@@ -415,7 +415,7 @@ background: #3a0ca3;
     width: 500px;
     height: 180px;
     background-image: linear-gradient(to top, #000000 0%, #000000 100%);
-    top: -155px;
+    top: -366px;
     left:-700px;
     transition: transform 1s;
     z-index: 0;
@@ -924,74 +924,61 @@ background: #3a0ca3;
     top:150px;
     left:80px;
   }
-.buttonGrief{
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 7px;
-    top: -420px;
-    left: -15px;
-    border: 1px solid rgb(61, 106, 255);
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    background: transparent;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 0 0 0 transparent;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    background: rgb(61, 106, 255);
-    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    cursor: pointer;
-    animation-name: Test;
-    animation-duration: 1.4s;
-    animation-timing-function: ease;
-    animation-duration: alternate-reverse;
-  }
-  
-.buttonGrief:hover {
-     background: rgb(231, 16, 16);
-    box-shadow: 0 0 30px 5px rgba(236, 55, 0, 0.815);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    border: 1px solid rgb(255, 61, 61);
-  }
-  
-.buttonGrief:hover::before {
-    -webkit-animation: sh02 0.5s 0s linear;
-    -moz-animation: sh02 0.5s 0s linear;
-    animation: sh02 0.5s 0s linear;
-  }
-  
-.buttonGrief::before {
-    content: '';
-    display: block;
-    width: 0px;
-    height: 86%;
+.ButtonAnar{
+    text-decoration: none;
     position: absolute;
-    top: 7%;
-    left: 0%;
-    opacity: 0;
-    background: #fff;
-    box-shadow: 0 0 50px 30px #fff;
-    -webkit-transform: skewX(-20deg);
-    -moz-transform: skewX(-20deg);
-    -ms-transform: skewX(-20deg);
-    -o-transform: skewX(-20deg);
-    transform: skewX(-20deg);
-}
-.buttonGrief::before {
-    content: attr(text);
+    border: none;
+    font-size: 14px;
+    top:20px;
+    left:160px;
+    font-family: inherit;
+    cursor: pointer;
+    color: #fff;
+    width: 7em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #03a9f4, #eb2b1d, #2245e2, #f40b03);
+    background-size: 300%;
+    border-radius: 25px;
+    z-index: 3;
   }
   
-.buttonGrief:hover::before {
-    content: attr(hover-text);
+.ButtonAnar:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+  }
+  
+  @keyframes ani {
+    0% {
+      background-position: 0%;
+    }
+  
+    100% {
+      background-position: 400%;
+    }
+  }
+  
+.ButtonAnar:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 25px;
+    transition: 1s;
+  }
+  
+  .ButtonAnar:hover::before {
+    filter: blur(20px);
+  }
+  
+  .ButtonAnar:active {
+    background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   }
   
   @keyframes sh02 {
@@ -1010,13 +997,7 @@ background: #3a0ca3;
     }
   }
 
-.buttonGrief:active {
-    box-shadow: 0 0 0 0 transparent;
-    -webkit-transition: box-shadow 0.2s ease-in;
-    -moz-transition: box-shadow 0.2s ease-in;
-    transition: box-shadow 0.2s ease-in;
-  }
-  
+
 
 @keyframes Test1{
     0% {
