@@ -2148,6 +2148,14 @@ input[type="checkbox4"]:checked:after {
     .LiteN{
        left:9em;
     }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -375px;
+    }
 }
 @media(max-width:480px){
     .neakt{
@@ -2160,6 +2168,14 @@ input[type="checkbox4"]:checked:after {
         top: 54em;
         transform: translate(-50%, -50%)scale(0.04);
     }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -375px;
+    }
 }
 @media(max-width:476px){
     .neakt{
@@ -2171,10 +2187,26 @@ input[type="checkbox4"]:checked:after {
         left:2.5em;
         top:51.7em;
     }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -375px;
+    }
 }
 @media(max-width:462px){
     .LiteN{
         left:2em;
+    }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -372px;
     }
 }
 @media(max-width:447px){
