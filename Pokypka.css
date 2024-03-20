@@ -14,7 +14,6 @@
     opacity: 1; 
     visibility: visible; 
     transition-delay: 0s;
-    
 }
 .LiteN {
     position: absolute;
@@ -1970,206 +1969,263 @@ input[type="checkbox4"]:checked:after {
 
 @media (max-width:1820px) {
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.9);
-    }
-   
-}
-@media (max-width:1820px) {
-    .LiteN{
         transform: translate(-50%, -50%) scale(0.8);
     }
    
 }
 @media (max-width:1670px){
-    body,html .neakt.show{
-        overflow: hidden;
-    }
-    .neakt {
+     .neakt {
         position: fixed;
-        top: -55em;
-        left:-5em;
-        width: 110%;
-        height: 135%;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 2;
         opacity: 0; 
+        transform: scale(1.1);
         visibility: hidden; 
         transition: opacity 0.8s ease, visibility 0s 0.5s;
-    }
+    } 
     .neakt.show {
         opacity: 1; 
         visibility: visible; 
         transition-delay: 0s;
     }
- 
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.8);
+        top:-4em;
+        left:10em;
+        transform: scale(0.74);
     }
-}
+
+} 
 @media (max-width:1360px) {
+   
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.7);
+        transform: scale(0.67);
+        top:-7em;
+        left:9em;
     }
     .neakt {
-        left:-3em;
-        top: -53em;
+        top:-1em;
+        left:1em;
+    }
+    input[type="checkbox"] {
+        position: relative;
+        left:-6px;
+        top:-2px;
     }
    
 }
 @media (max-width:1237px) {
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.66);
+    .LiteN {
+        top: 65em;
+        left: 36em;
+        transform: translate(-50%, -50%)scale(0.33);
     }
     .neakt {
-        left:-7.5em;
-        top: -88em;
-        width: 120%;
+        transform: scale(2);
+        height: 68%;
     }
 }
 @media (max-width:1088px) {
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.57);
+    .LiteN {
+        top: 95em;
+        left: 32em;
+        transform: translate(-50%, -50%)scale(0.28);
     }
     .neakt{
         top:-90em;
+        
     }
    
 }
 @media (max-width:1024px) {
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.57);
+        top: 90em;
     }
     .neakt{
-        top:-81em;
-        left:-5em;
+        height: 114%;
+        
     }
    
 }
 @media (max-width:968px) {
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.49);
+    .LiteN {
+        top: 86em;
+        left: 28em;
+        transform: translate(-50%, -50%)scale(0.23);
     }
     .neakt{
-        top:-82em;
-       left:-2em
+        top:-90em;
+        height: 114%;
     }
    
 }
 @media (max-width:900px) {
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.49);
+    .LiteN {
+        top: 84em;
+        left: 28em;
+        transform: translate(-50%, -50%)scale(0.23);
     }
     .neakt{
-        top:-70em;
-       left:-2em
+        top:-90em;
+        height: 118%;
     }
    
 }
-@media (max-width:800px) {
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.49);
-    }
+@media (max-width:800px){
     .neakt{
-        top:-116em;
-       left:-5em
+        top:-90em;
+        height: 101%;
+        
     }
-    input[type="checkbox"] {
-        position: relative;
-        left:-5px;
+   .LiteN{
+    position: absolute;
+    top:96em;
+    left:25em;
+   }
+
+}
+@media (max-width:724px){
+    .LiteN{
+        left:20em;
     }
-   
+}
+@media (max-width:620px){
+    .LiteN{
+        left:18em;
+        transform: translate(-50%, -50%)scale(0.20);
+    }
 }
 @media (max-width:568px){
+   
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.45);
+        top:62em;
+        transform: translate(-50%, -50%)scale(0.1);
+        left:11em
     }
     .neakt{
-        top:-95em;
-        left:-1em;
-        width: 255%;
-    }
+        transform: scale(4);
+        height: 65%;
+    } 
 }
 @media (max-width:544px){
-    .neakt{
-        top:-95em;
-        left:-1em;
-        width: 300%;
-    }
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.40);
+        left:10em;
+        transform: translate(-50%, -50%)scale(0.09);
+    }
+}
+@media (max-width:540px){
+    .LiteN{
+        top:60em;
+        left:10em;
+        transform: translate(-50%, -50%)scale(0.09);
+    }
+    .neakt{
+        transform: scale(4.3);
+        height: 65%;
+    } 
+}
+@media(max-width:524px){
+    .LiteN{
+       left:9em;
     }
 }
 @media(max-width:480px){
     .neakt{
-        width: 800%;
-        left:-10em;
-        top:-255em;
+        transform: scale(9);
+        left:4em;
+        height: 25%;
     }
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.35);
+    .LiteN {
+        left: 3em;
+        top: 54em;
+        transform: translate(-50%, -50%)scale(0.04);
     }
 }
 @media(max-width:476px){
     .neakt{
-        left:-16em;
-        width: 1200%;
+        transform: scale(15);
+        
+    }
+    .LiteN{
+        transform: translate(-50%, -50%)scale(0.02);
+        left:2.5em;
+        top:51.7em;
     }
 }
-@media(max-width:468px){
-    .neakt{
-        left:-14em;
-        width: 1200%;
+@media(max-width:462px){
+    .LiteN{
+        left:2em;
     }
 }
-@media(max-width:460px){
+@media(max-width:447px){
+    .LiteN{
+        left:1.6em;
+        transform: translate(-50%, -50%)scale(0.012);
+        top: 21.4em;
+    }
     .neakt{
-        left:-12em;
-        width: 1200%;
+        transform: scale(25);
+        height: 9.5%;
     }
 }
-@media(max-width:454px){
-    .neakt{
-        left:-9em;
-        width: 1200%;
+@media(max-width:442px){
+    .LiteN{
+        left:1.4em;
+    }
+}
+@media(max-width:420px){
+    .LiteN{
+        left:1.8em;
+        transform: translate(-50%, -50%)scale(0.011);
     }
 }
 @media(max-width:390px){
-    .neakt{
-        left:-9em;
-        width: 1800%;
-    }
     .LiteN{
-        transform: translate(-50%, -50%) scale(0.30);
+        left:1.41em;
+        transform: translate(-50%, -50%)scale(0.011);
     }
 }
 @media(max-width:375px){
-    .neakt{
-        left:-11em;
-        width: 3000%;
-    }
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.3);
-    }
+   .neakt{
+    transform: scale(25);
+    width:2em;
+   }
+   .LiteN{
+    left:1.2em;
+    transform: translate(-50%, -50%)scale(0.010);
+   }
 }
 @media(max-width:360px){
+    /* body,html .neakt.show{
+        
+    } 
     .neakt{
         left:-11em;
         width: 8800%;
     }
     .LiteN{
         transform: translate(-50%, -50%) scale(0.25);
-    }
+    } */
 }
 @media(max-width:355px){
+    /* body,html .neakt.show{
+        
+    } 
     .neakt{
         left:-11em;
         width: 23800%;
     }
     .LiteN{
         transform: translate(-50%, -50%) scale(0.25);
-    }
+    } */
 }
 @media(max-width:353px){
+    /* body,html .neakt.show{
+        
+    } 
     .neakt{
         left:-11em;
         width: 67800%;
@@ -2177,25 +2233,31 @@ input[type="checkbox4"]:checked:after {
     .LiteN{
         transform: translate(-50%, -50%) scale(0.30);
         
-    }
+    } */
 }
 @media(max-height:500px){
+    /* body,html .neakt.show{
+        
+    } 
     .neakt{
         top:-100em;
         
     }
     .LiteN{
         transform: translate(-50%, -50%) scale(0.30);
-    }
+    } */
 }
 @media(max-height:569px){
+    /* body,html .neakt.show{
+        
+    } 
     .neakt{
         top:-124em;
         
     }
     .LiteN{
         transform: translate(-50%, -50%) scale(0.33);
-    }
+    } */
 }
 
 
