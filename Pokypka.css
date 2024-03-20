@@ -2114,11 +2114,21 @@ input[type="checkbox4"]:checked:after {
         transform: scale(4);
         height: 65%;
     } 
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
+    }
 }
 @media (max-width:544px){
     .LiteN{
         left:10em;
         transform: translate(-50%, -50%)scale(0.09);
+    }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
     }
 }
 @media (max-width:540px){
@@ -2127,14 +2137,29 @@ input[type="checkbox4"]:checked:after {
         left:10em;
         transform: translate(-50%, -50%)scale(0.09);
     }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
+    }
     .neakt{
         transform: scale(4.3);
         height: 65%;
     } 
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
+    }
 }
 @media(max-width:524px){
     .LiteN{
        left:9em;
+    }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
     }
 }
 @media(max-width:480px){
@@ -2148,6 +2173,11 @@ input[type="checkbox4"]:checked:after {
         top: 54em;
         transform: translate(-50%, -50%)scale(0.04);
     }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
+    }
 }
 @media(max-width:476px){
     .neakt{
@@ -2158,6 +2188,11 @@ input[type="checkbox4"]:checked:after {
         transform: translate(-50%, -50%)scale(0.02);
         left:2.5em;
         top:51.7em;
+    }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
     }
 }
 @media(max-width:462px){
@@ -2175,10 +2210,20 @@ input[type="checkbox4"]:checked:after {
         transform: scale(25);
         height: 9.5%;
     }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
+    }
 }
 @media(max-width:442px){
     .LiteN{
         left:1.4em;
+    }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
     }
 }
 @media(max-width:420px){
@@ -2186,11 +2231,21 @@ input[type="checkbox4"]:checked:after {
         left:1.8em;
         transform: translate(-50%, -50%)scale(0.011);
     }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
+    }
 }
 @media(max-width:390px){
     .LiteN{
         left:1.41em;
         transform: translate(-50%, -50%)scale(0.011);
+    }
+    input[type="checkbox"] {
+        position: relative;
+        left: -13px;
+        top: -2px;
     }
 }
 @media(max-width:375px){
@@ -2202,67 +2257,12 @@ input[type="checkbox4"]:checked:after {
     left:1.2em;
     transform: translate(-50%, -50%)scale(0.010);
    }
+   input[type="checkbox"] {
+    position: relative;
+    left: -13px;
+    top: -2px;
 }
-@media(max-width:360px){
-    /* body,html .neakt.show{
-        
-    } 
-    .neakt{
-        left:-11em;
-        width: 8800%;
-    }
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.25);
-    } */
 }
-@media(max-width:355px){
-    /* body,html .neakt.show{
-        
-    } 
-    .neakt{
-        left:-11em;
-        width: 23800%;
-    }
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.25);
-    } */
-}
-@media(max-width:353px){
-    /* body,html .neakt.show{
-        
-    } 
-    .neakt{
-        left:-11em;
-        width: 67800%;
-    }
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.30);
-        
-    } */
-}
-@media(max-height:500px){
-    /* body,html .neakt.show{
-        
-    } 
-    .neakt{
-        top:-100em;
-        
-    }
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.30);
-    } */
-}
-@media(max-height:569px){
-    /* body,html .neakt.show{
-        
-    } 
-    .neakt{
-        top:-124em;
-        
-    }
-    .LiteN{
-        transform: translate(-50%, -50%) scale(0.33);
-    } */
-}
+
 
 
