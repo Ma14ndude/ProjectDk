@@ -178,7 +178,7 @@ label {
     cursor: pointer;
     position: relative;
     top: 143px;
-    left: -368px;
+    left: -362px;
 }
 .textforcheck {
     display: inline-block;
@@ -2060,6 +2060,7 @@ input[type="checkbox4"]:checked:after {
         top:-90em;
         height: 114%;
     }
+
    
 }
 @media (max-width:900px) {
@@ -2072,7 +2073,16 @@ input[type="checkbox4"]:checked:after {
         top:-90em;
         height: 118%;
     }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -372px;
+    }
    
+
 }
 @media (max-width:800px){
     .neakt{
@@ -2085,6 +2095,14 @@ input[type="checkbox4"]:checked:after {
     top:96em;
     left:25em;
    }
+   label {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 143px;
+    left: -372px;
+}
 
 }
 @media (max-width:724px){
