@@ -2228,11 +2228,12 @@ input[type="checkbox4"]:checked:after {
     }
 }
 
-@media (max-height:375px){
+
+@media (max-height:406px){
     .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
-        transform: scale(0.3);
-        top:-15em;
-        left:-16em;
+        transform: scale(0.35);
+        top:-14em;
+        left:-15em;
     }
     label {
         display: inline-block;
@@ -2243,11 +2244,11 @@ input[type="checkbox4"]:checked:after {
         left: -365px;
     }
 }
-@media (max-height:535px){
+@media (max-height:351px){
     .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
-        transform: scale(0.4);
-        top:-12em;
-        left:-11em;
+        transform: scale(0.30);
+        top:-16em;
+        left:-15em;
     }
     label {
         display: inline-block;
