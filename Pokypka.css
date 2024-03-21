@@ -2259,4 +2259,49 @@ input[type="checkbox4"]:checked:after {
         left: -365px;
     }
 }
+@media (max-height:414px){
+    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+        transform: scale(0.30);
+        top:-16em;
+        left:-15em;
+    }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -365px;
+    }
+}
+@media (max-height:430px){
+    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+        transform: scale(0.30);
+        top:-14em;
+        left:-15em;
+    }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -365px;
+    }
+}
+@media (max-height:280px){
+    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+        transform: scale(0.25);
+        top:-17em;
+        left:-15em;
+    }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -365px;
+    }
+}
 
