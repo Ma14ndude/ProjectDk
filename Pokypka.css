@@ -2228,5 +2228,34 @@ input[type="checkbox4"]:checked:after {
     }
 }
 
-
+@media (max-height:375px){
+    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+        transform: scale(0.3);
+        top:-15em;
+        left:-16em;
+    }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -365px;
+    }
+}
+@media (max-height:535px){
+    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+        transform: scale(0.4);
+        top:-12em;
+        left:-11em;
+    }
+    label {
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        top: 143px;
+        left: -365px;
+    }
+}
 
