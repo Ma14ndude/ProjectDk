@@ -1811,6 +1811,65 @@ input[type="checkbox4"]:checked:after {
     top: 646px;
 }
 
+.Buy15 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy15::after,
+.Buy15::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy15::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy15:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy15:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy15:hover {
+    color: var(--color2);
+}
+
+.Buy15:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
 .Buy14 {
     position: relative;
     top: 339px;
@@ -1967,18 +2026,177 @@ input[type="checkbox4"]:checked:after {
     font-size: 17px;
     left:-150px;
 }
+.neakt15 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt15.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN15 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+.LineN15 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+#errorMessage15 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+.neakt16 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.8s ease, visibility 0s 0.5s;
+}
+
+.neakt16.show {
+    opacity: 1; 
+    visibility: visible; 
+    transition-delay: 0s; 
+}
+
+.LineN16 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: black; 
+    width: 1200px;
+    height: 800px;
+    z-index: 2;
+}
+
+.LineN16 > h1 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+}
+
+#errorMessage16 {
+    display: none;
+    color: red;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    left: 817px;
+    top: 646px;
+}
+
+.Buy16 {
+    position: relative;
+    top: 339px;
+    --color: #fcfcfc;
+    --color2: rgb(10, 25, 30);
+    padding: 0.6em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    left: 919px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+}
+
+.Buy16::after,
+.Buy16::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+}
+
+.Buy16::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy16:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.Buy16:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.Buy16:hover {
+    color: var(--color2);
+}
+
+.Buy16:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+
 
 @media (max-width:1820px) {
     .LiteN{
         transform: translate(-50%, -50%) scale(0.8);
     }
-    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: translate(-50%, -50%) scale(0.8);
     }
    
 }
 @media (max-width:1670px){
-     .neakt, .neakt1, .neakt2, .neakt3, .neakt4, .neakt5, .neakt6, .neakt8, .neakt9, .neakt10, .neakt11, .neakt12, .neakt13, .neakt14{
+     .neakt, .neakt1, .neakt2, .neakt3, .neakt4, .neakt5, .neakt6, .neakt8, .neakt9, .neakt10, .neakt11, .neakt12, .neakt13, .neakt14, .neakt15, .neakt16{
         position: fixed;
         top: -10px;
         left: 10px;
@@ -1991,13 +2209,13 @@ input[type="checkbox4"]:checked:after {
         visibility: hidden; 
         transition: opacity 0.8s ease, visibility 0s 0.5s;
     } 
-    .neakt.show, .neakt1.show, .neakt2.show, .neakt3.show, .neakt4.show, .neakt5.show, .neakt6.show, .neakt8.show, .neakt9.show, .neakt10.show, .neakt11.show, .neakt12.show, .neakt13.show, .neakt14.show{
+    .neakt.show, .neakt1.show, .neakt2.show, .neakt3.show, .neakt4.show, .neakt5.show, .neakt6.show, .neakt8.show, .neakt9.show, .neakt10.show, .neakt11.show, .neakt12.show, .neakt13.show, .neakt14.show, .neakt.show15, .neakt.show16{
         opacity: 1; 
         visibility: visible; 
         transition-delay: 0s;
       
     }
-    .LiteN, .LiteN1, .LiteN2, .LiteN3,.LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         top:-5em;
         left:10em;
         transform: scale(0.70);
@@ -2007,7 +2225,7 @@ input[type="checkbox4"]:checked:after {
 } 
 @media (max-width:1360px) {
    
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.60);
         top:-7em;
         left:4em;
@@ -2022,7 +2240,7 @@ input[type="checkbox4"]:checked:after {
    
 }
 @media (max-width:1237px) {
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14 {
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16 {
         transform: scale(0.54);
         top:-8em;
         left:4em;
@@ -2030,7 +2248,7 @@ input[type="checkbox4"]:checked:after {
    
 }
 @media (max-width:1088px) {
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.47);
         top:-10em;
         left:-3em;
@@ -2040,7 +2258,7 @@ input[type="checkbox4"]:checked:after {
    
 }
 @media (max-width:1024px) {
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.47);
         top:-5em;
         left:-15em;
@@ -2049,7 +2267,7 @@ input[type="checkbox4"]:checked:after {
    
 }
 @media (max-width:968px) {
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.43);
         top:-5em;
         left:-10em;
@@ -2073,7 +2291,7 @@ input[type="checkbox4"]:checked:after {
 
 }
 @media (max-width:800px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.43);
         top:-5em;
         left:-15em;
@@ -2090,7 +2308,7 @@ input[type="checkbox4"]:checked:after {
 
 }
 @media (max-width:689px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.42);
         top:-5em;
         left:-17em;
@@ -2105,7 +2323,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media (max-width:644px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.38);
         top:-5em;
         left:-19em;
@@ -2121,7 +2339,7 @@ input[type="checkbox4"]:checked:after {
     
 }
 @media (max-width:568px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.30);
         top:-5em;
         left:-22em;
@@ -2142,7 +2360,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media(max-width:486px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.30);
         top:-5em;
         left:-25em;
@@ -2167,7 +2385,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media(max-width:462px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.25);
         top:-5em;
         left:-25em;
@@ -2182,7 +2400,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media(max-width:407px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.20);
         top:-5em;
         left:-27em;
@@ -2197,7 +2415,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media(max-width:339px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.19);
         top:-5em;
         left:-28em;
@@ -2213,7 +2431,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media(max-width:316px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.17);
         top:-5em;
         left:-30em;
@@ -2230,7 +2448,7 @@ input[type="checkbox4"]:checked:after {
 
 
 @media (max-height:406px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.35);
         top:-14em;
         left:-15em;
@@ -2245,7 +2463,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media (max-height:351px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.30);
         top:-16em;
         left:-15em;
@@ -2260,7 +2478,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media (max-height:414px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.30);
         top:-16em;
         left:-15em;
@@ -2275,7 +2493,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media (max-height:430px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.30);
         top:-14em;
         left:-15em;
@@ -2290,7 +2508,7 @@ input[type="checkbox4"]:checked:after {
     }
 }
 @media (max-height:280px){
-    .LiteN, .LiteN1, .LiteN2, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8,.LineN9, .LineN10, .LineN11, .LineN12,.LineN13,.LineN14{
+    .LiteN1,.LiteN2, .LiteN3, .LiteN3, .LiteN4, .LineN5, .LineN6, .LineN8, .LineN9, .LineN10, .LineN11, .LineN12, .LineN13, .LineN14, .LineN15, .LineN16{
         transform: scale(0.25);
         top:-17em;
         left:-15em;

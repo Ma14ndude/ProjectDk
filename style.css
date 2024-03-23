@@ -1019,6 +1019,10 @@ background: #3a0ca3;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    animation-name: AniAnarh;
+    animation-duration: 3.3s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .Rules::after {
     content: ''; 
@@ -1031,8 +1035,13 @@ background: #3a0ca3;
     transform: scaleX(0); 
     transform-origin: left; 
     transition: transform 0.5s; 
+    transition: rotate3d 2s
 }
-
+@keyframes AniAnarh {
+    from{
+        transform: translateY(-500px);
+    }
+}
 .Rules:hover::after {
     transform: scaleX(1); 
 }

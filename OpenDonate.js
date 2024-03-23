@@ -355,3 +355,55 @@ function closeModal14() {
     var close = document.getElementById('neakt14');
     close.classList.remove('show'); 
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    var checkbox = document.getElementById('checkbox14');
+    var buyButton = document.getElementById('Buy14');
+    var errorMessage = document.getElementById('errorMessage14');
+    var nickInput = document.getElementById('Nick14');
+    var emailInput = document.getElementById('Email14');
+
+    buyButton.addEventListener('click', function() {
+        if (!checkbox.checked || !nickInput.value || !emailInput.value) {
+            errorMessage.style.display = 'block'; 
+        } else {
+            errorMessage.style.display = 'none'; 
+            
+        }
+    });
+});
+
+function OpenBtn15() {
+    var open = document.getElementById('neakt15');
+    open.classList.add('show'); 
+}
+
+function closeModal15() {
+    var close = document.getElementById('neakt15');
+    close.classList.remove('show'); 
+}
+document.addEventListener("DOMContentLoaded", function() {
+    var checkbox = document.getElementById('checkbox16');
+    var buyButton = document.getElementById('Buy16');
+    var errorMessage = document.getElementById('errorMessage16');
+
+    buyButton.addEventListener('click', function() {
+        if (!checkbox.checked || !document.getElementById('Nick16').value || !document.getElementById('Email16').value) {
+            errorMessage.style.display = 'block'; // Показываем сообщение об ошибке
+        } else {
+            errorMessage.style.display = 'none'; // Скрываем сообщение об ошибке
+            // Ваше дальнейшее действие здесь
+        }
+    });
+});
+
+function OpenBtn16() {
+    var open = document.getElementById('neakt16');
+    open.classList.add('show'); 
+}
+
+function closeModal16() {
+    var close = document.getElementById('neakt16');
+    close.classList.remove('show'); 
+}
+
